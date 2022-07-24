@@ -1,0 +1,38 @@
+10:18:38.555 INFO  [] 
+10:18:38.555 INFO  User Data: 5c38f1e33223b08b4ea49650 
+10:18:38.563 INFO  reviewplace.creator == req.userData.id 5c3918193223b08b4ea49666 - 5c38f1e33223b08b4ea49650 
+10:18:38.563 INFO  reviewplace.creator == req.userData.id 5c3918193223b08b4ea49666 - 5c38f1e33223b08b4ea49650 
+10:18:48.066 INFO  [] 
+10:18:48.066 INFO  User Data: 5c38f1e33223b08b4ea49650 
+10:18:48.072 INFO  reviewplace.creator == req.userData.id 5c3918193223b08b4ea49666 - 5c38f1e33223b08b4ea49650 
+10:18:48.072 INFO  reviewplace.creator == req.userData.id 5c3918193223b08b4ea49666 - 5c38f1e33223b08b4ea49650 
+10:18:48.072 INFO  reviewplace.creator == req.userData.id 5c38f1e33223b08b4ea49650 - 5c38f1e33223b08b4ea49650 
+15:28:44.679 INFO  [] 
+15:28:44.679 INFO  User Data: 5c38f1e33223b08b4ea49650 
+15:28:53.815 INFO  [] 
+15:28:53.815 INFO  User Data: 5c38f1e33223b08b4ea49650 
+15:29:38.651 INFO  [] 
+15:29:38.651 INFO  User Data: 5c38f1e33223b08b4ea49650 
+15:29:38.659 INFO  reviewplace.creator == req.userData.id 5c38f1e33223b08b4ea49650 - 5c38f1e33223b08b4ea49650 
+15:29:46.391 INFO  [] 
+15:29:46.391 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:41:35.334 INFO  [{"fieldname":"reviewImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547671292038.jpg","path":"wip/uploads/review/reviewImg-1547671292038.jpg","size":508429},{"fieldname":"reviewImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547671293484.jpg","path":"wip/uploads/review/reviewImg-1547671293484.jpg","size":551351},{"fieldname":"reviewImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547671294503.jpg","path":"wip/uploads/review/reviewImg-1547671294503.jpg","size":534897}] 
+18:41:35.334 INFO  User Data: 5c3918193223b08b4ea49666 
+18:41:35.416 INFO  wip/uploads/review/reviewImg-1547671292038-tiny.jpg 
+18:41:35.571 INFO  wip/uploads/review/reviewImg-1547671293484-tiny.jpg 
+18:41:35.822 INFO  wip/uploads/review/reviewImg-1547671294503-tiny.jpg 
+15:47:45.044 INFO  [] 
+15:47:45.044 INFO  User Data: 5c3918193223b08b4ea49666 
+21:10:36.983 INFO  [{"fieldname":"reviewImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547766604924.jpg","path":"wip/uploads/review/reviewImg-1547766604924.jpg","size":871053},{"fieldname":"reviewImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547766615005.jpg","path":"wip/uploads/review/reviewImg-1547766615005.jpg","size":882466},{"fieldname":"reviewImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547766626151.jpg","path":"wip/uploads/review/reviewImg-1547766626151.jpg","size":887577}] 
+21:10:36.983 INFO  User Data: 5c38f1e33223b08b4ea49650 
+21:10:37.012 INFO  wip/uploads/review/reviewImg-1547766604924-tiny.jpg 
+21:10:37.038 INFO  wip/uploads/review/reviewImg-1547766615005-tiny.jpg 
+21:10:37.355 INFO  wip/uploads/review/reviewImg-1547766626151-tiny.jpg 
+21:19:11.652 INFO  [{"fieldname":"reviewImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547767149925.jpg","path":"wip/uploads/review/reviewImg-1547767149925.jpg","size":181860}] 
+21:19:11.652 INFO  User Data: 5c410ce1373a4bf0ac703cfe 
+21:19:11.721 INFO  wip/uploads/review/reviewImg-1547767149925-tiny.jpg 
+21:19:17.509 INFO  [{"fieldname":"reviewImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/review/","filename":"reviewImg-1547767156275.jpg","path":"wip/uploads/review/reviewImg-1547767156275.jpg","size":181860}] 
+21:19:17.509 INFO  User Data: 5c410ce1373a4bf0ac703cfe 
+21:19:17.584 INFO  wip/uploads/review/reviewImg-1547767156275-tiny.jpg 
+21:19:17.629 INFO  reviewplace.creator == req.userData.id 5c410ce1373a4bf0ac703cfe - 5c410ce1373a4bf0ac703cfe 
+21:19:18.509 INFO  no error 

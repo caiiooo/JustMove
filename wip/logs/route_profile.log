@@ -1,0 +1,255 @@
+19:26:03.926 INFO  json error: [object Object] 
+19:26:03.927 INFO  addLike is not defined
+ReferenceError: addLike is not defined
+    at User.update.exec.then.result (D:\Projetos\WIP\wipRest\api\routes\profile.js:53:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+19:27:45.661 INFO  json error: [object Object] 
+19:27:45.661 INFO  Cannot read property 'length' of null
+TypeError: Cannot read property 'length' of null
+    at User.findOne.select.exec.then.docs (D:\Projetos\WIP\wipRest\api\routes\profile.js:23:23)
+    at <anonymous> 
+20:04:11.260 INFO  json error: [object Object] 
+20:04:11.260 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:09:23.172 INFO  json error: [object Object] 
+20:09:23.173 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:10:19.052 INFO  json error: [object Object] 
+20:10:19.052 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:12:43.896 INFO  json error: [object Object] 
+20:12:43.896 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:13:07.437 INFO  json error: [object Object] 
+20:13:07.437 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:14:08.175 INFO  json error: [object Object] 
+20:14:08.175 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:15:52.932 INFO  json error: [object Object] 
+20:15:52.932 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:16:12.791 INFO  json error: [object Object] 
+20:16:12.791 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:17:05.143 INFO  json error: [object Object] 
+20:17:05.143 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:17:44.026 INFO  json error: [object Object] 
+20:17:44.026 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:18:21.859 INFO  json error: [object Object] 
+20:18:21.863 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:19:06.433 INFO  json error: [object Object] 
+20:19:06.433 INFO  Cast to ObjectId failed for value "image" at path "_id" for model "User"
+CastError: Cast to ObjectId failed for value "image" at path "_id" for model "User"
+    at new CastError (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType.applySetters (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:724:12)
+    at ObjectId.SchemaType._castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1113:15)
+    at ObjectId.SchemaType.castForQuery (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1103:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\schematype.js:1082:15)
+    at cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\cast.js:303:32)
+    at model.Query.Query.cast (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:3586:12)
+    at model.Query.Query._castConditions (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1392:10)
+    at model.Query.Query._findOne (D:\Projetos\WIP\wipRest\node_modules\mongoose\lib\query.js:1624:8)
+    at process.nextTick (D:\Projetos\WIP\wipRest\node_modules\kareem\index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+20:21:46.641 INFO  Command failed: Par�metro Inv�lido - -resize
+
+Error: Command failed: Par�metro Inv�lido - -resize
+
+    at ChildProcess.onExit (D:\Projetos\WIP\wipRest\node_modules\gm\lib\command.js:301:17)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at ChildProcess.cp.emit (D:\Projetos\WIP\wipRest\node_modules\cross-spawn\lib\enoent.js:40:29)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 
+20:21:46.648 INFO  Command failed: Par�metro Inv�lido - -resize
+
+Error: Command failed: Par�metro Inv�lido - -resize
+
+    at ChildProcess.onExit (D:\Projetos\WIP\wipRest\node_modules\gm\lib\command.js:301:17)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at ChildProcess.cp.emit (D:\Projetos\WIP\wipRest\node_modules\cross-spawn\lib\enoent.js:40:29)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 
+20:22:06.906 INFO  Command failed: Par�metro Inv�lido - -resize
+
+Error: Command failed: Par�metro Inv�lido - -resize
+
+    at ChildProcess.onExit (D:\Projetos\WIP\wipRest\node_modules\gm\lib\command.js:301:17)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at ChildProcess.cp.emit (D:\Projetos\WIP\wipRest\node_modules\cross-spawn\lib\enoent.js:40:29)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 
+20:22:06.911 INFO  Command failed: Par�metro Inv�lido - -resize
+
+Error: Command failed: Par�metro Inv�lido - -resize
+
+    at ChildProcess.onExit (D:\Projetos\WIP\wipRest\node_modules\gm\lib\command.js:301:17)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at ChildProcess.cp.emit (D:\Projetos\WIP\wipRest\node_modules\cross-spawn\lib\enoent.js:40:29)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 

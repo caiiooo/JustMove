@@ -1,0 +1,935 @@
+14:15:29.255 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1543940128051.jpg","path":"wip/uploads/places/placeImg-1543940128051.jpg","size":77909},{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1543940128333.jpg","path":"wip/uploads/places/placeImg-1543940128333.jpg","size":86603},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1543940128828.jpg","path":"wip/uploads/places/placeImg-1543940128828.jpg","size":84276}] 
+14:15:29.255 INFO  User Data: 5c052b902b198679aadcfa91 
+14:15:29.299 INFO  wip/uploads/places/placeImg-1543940128051-tiny.jpg 
+14:15:29.397 INFO  wip/uploads/places/placeImg-1543940128333-tiny.jpg 
+14:15:29.507 INFO  wip/uploads/places/placeImg-1543940128828-tiny.jpg 
+14:15:29.512 INFO  no error 
+14:15:29.513 INFO  [{"_id":"5bce043b0304250b69794a61","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1540228155452.png"}] 
+14:15:29.583 INFO  no error 
+14:15:29.627 INFO  no error 
+14:15:29.644 INFO  no error 
+14:15:29.686 INFO  no error 
+14:15:29.698 INFO  no error 
+17:27:47.708 INFO  [] 
+17:27:47.708 INFO  User Data: 5c052b902b198679aadcfa91 
+17:27:47.710 INFO  [{"_id":"5c06d5064ace32f5742fc6a9","name":"Musculação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951622799.png"}] 
+19:24:02.639 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1543958642009.jpg","path":"wip/uploads/places/placeImg-1543958642009.jpg","size":82028}] 
+19:24:02.639 INFO  User Data: 5c052b902b198679aadcfa91 
+19:24:02.669 INFO  wip/uploads/places/placeImg-1543958642009-tiny.jpg 
+19:24:02.672 INFO  [{"_id":"5c06d5064ace32f5742fc6a9","name":"Musculação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951622799.png"}] 
+19:24:02.786 INFO  no error 
+19:24:02.798 INFO  no error 
+19:25:53.895 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1543958752973.jpg","path":"wip/uploads/places/placeImg-1543958752973.jpg","size":98138}] 
+19:25:53.895 INFO  User Data: 5c052b902b198679aadcfa91 
+19:25:53.929 INFO  wip/uploads/places/placeImg-1543958752973-tiny.jpg 
+19:25:53.939 INFO  [{"_id":"5c06da674ace32f5742fc6c3","name":"CrossFit","type":"Esportes","icon":"wip/uploads/modality/modalityIcon-1543952999152.png"}] 
+19:25:54.282 INFO  no error 
+19:25:54.282 INFO  no error 
+21:54:19.508 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1543967659044.jpg","path":"wip/uploads/places/placeImg-1543967659044.jpg","size":158436}] 
+21:54:19.508 INFO  User Data: 5c052b902b198679aadcfa91 
+21:54:19.559 INFO  wip/uploads/places/placeImg-1543967659044-tiny.jpg 
+21:54:19.571 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+21:54:19.633 INFO  no error 
+21:54:19.634 INFO  no error 
+21:59:11.938 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1543967951123.jpg","path":"wip/uploads/places/placeImg-1543967951123.jpg","size":204384}] 
+21:59:11.938 INFO  User Data: 5c052b902b198679aadcfa91 
+21:59:11.981 INFO  wip/uploads/places/placeImg-1543967951123-tiny.jpg 
+21:59:11.985 INFO  [{"_id":"5c06d57a4ace32f5742fc6ab","name":"Basquetebol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951738966.png"}] 
+21:59:12.051 INFO  no error 
+21:59:12.067 INFO  no error 
+10:16:04.376 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544098558241.jpg","path":"wip/uploads/places/placeImg-1544098558241.jpg","size":394366}] 
+10:16:04.376 INFO  User Data: 5c052b902b198679aadcfa91 
+10:16:04.402 INFO  wip/uploads/places/placeImg-1544098558241-tiny.jpg 
+10:16:04.408 INFO  [{"_id":"5c0813d4b4d4ef62cf82407e","name":"Escalada","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033236149.png"}] 
+10:16:04.501 INFO  no error 
+10:16:04.529 INFO  no error 
+10:22:23.065 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_008.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544098942089.jpg","path":"wip/uploads/places/placeImg-1544098942089.jpg","size":361243}] 
+10:22:23.065 INFO  User Data: 5c052b902b198679aadcfa91 
+10:22:23.092 INFO  wip/uploads/places/placeImg-1544098942089-tiny.jpg 
+10:22:23.095 INFO  [{"_id":"5c0813aab4d4ef62cf82407c","name":"Capoeira","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033194908.png"}] 
+10:22:23.244 INFO  no error 
+10:22:23.258 INFO  no error 
+11:45:02.133 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_011.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544103897070.jpg","path":"wip/uploads/places/placeImg-1544103897070.jpg","size":112473},{"fieldname":"placeImg","originalname":"cdv_photo_010.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544103898107.jpg","path":"wip/uploads/places/placeImg-1544103898107.jpg","size":127985},{"fieldname":"placeImg","originalname":"cdv_photo_009.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544103901148.jpg","path":"wip/uploads/places/placeImg-1544103901148.jpg","size":116581}] 
+11:45:02.133 INFO  User Data: 5c052b902b198679aadcfa91 
+11:45:02.215 INFO  wip/uploads/places/placeImg-1544103897070-tiny.jpg 
+11:45:02.236 INFO  wip/uploads/places/placeImg-1544103898107-tiny.jpg 
+11:45:02.362 INFO  wip/uploads/places/placeImg-1544103901148-tiny.jpg 
+11:45:02.364 INFO  no error 
+11:45:02.365 INFO  no error 
+11:45:02.377 INFO  [{"_id":"5c06d6b14ace32f5742fc6ba","name":"Sinuca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952049902.png"}] 
+11:45:02.393 INFO  no error 
+11:45:02.427 INFO  no error 
+11:45:02.438 INFO  no error 
+11:45:02.446 INFO  no error 
+12:56:31.788 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_012.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544108190531.jpg","path":"wip/uploads/places/placeImg-1544108190531.jpg","size":237989}] 
+12:56:31.788 INFO  User Data: 5c052b902b198679aadcfa91 
+12:56:31.816 INFO  wip/uploads/places/placeImg-1544108190531-tiny.jpg 
+12:56:31.828 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+12:56:31.895 INFO  no error 
+12:56:31.910 INFO  no error 
+12:57:39.893 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_014.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544108258188.jpg","path":"wip/uploads/places/placeImg-1544108258188.jpg","size":159609},{"fieldname":"placeImg","originalname":"cdv_photo_013.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544108258751.jpg","path":"wip/uploads/places/placeImg-1544108258751.jpg","size":269613}] 
+12:57:39.893 INFO  User Data: 5c052b902b198679aadcfa91 
+12:57:39.932 INFO  wip/uploads/places/placeImg-1544108258188-tiny.jpg 
+12:57:40.016 INFO  wip/uploads/places/placeImg-1544108258751-tiny.jpg 
+12:57:40.022 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+12:57:40.025 INFO  no error 
+12:57:40.034 INFO  no error 
+12:57:40.100 INFO  no error 
+12:57:40.105 INFO  no error 
+12:58:48.598 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_015.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544108327348.jpg","path":"wip/uploads/places/placeImg-1544108327348.jpg","size":240220}] 
+12:58:48.598 INFO  User Data: 5c052b902b198679aadcfa91 
+12:58:48.633 INFO  wip/uploads/places/placeImg-1544108327348-tiny.jpg 
+12:58:48.643 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+12:58:48.707 INFO  no error 
+12:58:48.711 INFO  no error 
+13:01:35.002 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_016.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544108494352.jpg","path":"wip/uploads/places/placeImg-1544108494352.jpg","size":204178}] 
+13:01:35.002 INFO  User Data: 5c052b902b198679aadcfa91 
+13:01:35.039 INFO  wip/uploads/places/placeImg-1544108494352-tiny.jpg 
+13:01:35.046 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+13:01:35.113 INFO  no error 
+13:01:35.117 INFO  no error 
+13:02:43.456 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_017.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544108562882.jpg","path":"wip/uploads/places/placeImg-1544108562882.jpg","size":138888}] 
+13:02:43.456 INFO  User Data: 5c052b902b198679aadcfa91 
+13:02:43.506 INFO  wip/uploads/places/placeImg-1544108562882-tiny.jpg 
+13:02:43.517 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+13:02:43.567 INFO  no error 
+13:02:43.578 INFO  no error 
+13:23:43.373 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_018.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544109823062.jpg","path":"wip/uploads/places/placeImg-1544109823062.jpg","size":127354}] 
+13:23:43.373 INFO  User Data: 5c052b902b198679aadcfa91 
+13:23:43.398 INFO  wip/uploads/places/placeImg-1544109823062-tiny.jpg 
+13:23:43.402 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+13:23:43.459 INFO  no error 
+13:23:43.462 INFO  no error 
+13:26:21.861 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_019.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544109980973.jpg","path":"wip/uploads/places/placeImg-1544109980973.jpg","size":350860}] 
+13:26:21.861 INFO  User Data: 5c052b902b198679aadcfa91 
+13:26:21.893 INFO  wip/uploads/places/placeImg-1544109980973-tiny.jpg 
+13:26:21.901 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+13:26:21.973 INFO  no error 
+13:26:21.981 INFO  no error 
+13:44:48.220 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_020.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544111087960.jpg","path":"wip/uploads/places/placeImg-1544111087960.jpg","size":81477}] 
+13:44:48.220 INFO  User Data: 5c052b902b198679aadcfa91 
+13:44:48.240 INFO  wip/uploads/places/placeImg-1544111087960-tiny.jpg 
+13:44:48.242 INFO  [{"_id":"5c081c52b4d4ef62cf82408f","name":"Bungee jumping","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544035410259.png"}] 
+13:44:48.296 INFO  no error 
+13:44:48.310 INFO  no error 
+13:46:36.400 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_021.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544111194796.jpg","path":"wip/uploads/places/placeImg-1544111194796.jpg","size":239252}] 
+13:46:36.400 INFO  User Data: 5c052b902b198679aadcfa91 
+13:46:36.438 INFO  wip/uploads/places/placeImg-1544111194796-tiny.jpg 
+13:46:36.446 INFO  [{"_id":"5c081c3bb4d4ef62cf82408e","name":"Arvorismo","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544035387728.png"}] 
+13:46:36.491 INFO  no error 
+13:46:36.501 INFO  no error 
+13:49:36.735 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_022.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544111375867.jpg","path":"wip/uploads/places/placeImg-1544111375867.jpg","size":296931}] 
+13:49:36.735 INFO  User Data: 5c052b902b198679aadcfa91 
+13:49:36.772 INFO  wip/uploads/places/placeImg-1544111375867-tiny.jpg 
+13:49:36.782 INFO  [{"_id":"5c081c71b4d4ef62cf824091","name":"Paintball","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544035441890.png"}] 
+13:49:36.842 INFO  no error 
+13:49:36.846 INFO  no error 
+15:56:55.661 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544119015424.jpg","path":"wip/uploads/places/placeImg-1544119015424.jpg","size":100960}] 
+15:56:55.661 INFO  User Data: 5c052b902b198679aadcfa91 
+15:56:55.718 INFO  wip/uploads/places/placeImg-1544119015424-tiny.jpg 
+15:56:55.728 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+15:56:55.778 INFO  no error 
+15:56:55.794 INFO  no error 
+16:05:16.404 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544119515548.jpg","path":"wip/uploads/places/placeImg-1544119515548.jpg","size":200994}] 
+16:05:16.404 INFO  User Data: 5c052b902b198679aadcfa91 
+16:05:16.453 INFO  wip/uploads/places/placeImg-1544119515548-tiny.jpg 
+16:05:16.464 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+16:05:16.533 INFO  no error 
+16:05:16.540 INFO  no error 
+19:20:23.367 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544217612874.jpg","path":"wip/uploads/places/placeImg-1544217612874.jpg","size":133834},{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544217614902.jpg","path":"wip/uploads/places/placeImg-1544217614902.jpg","size":180532}] 
+19:20:23.367 INFO  User Data: 5bcf0f4d39b9c1ede6cdc538 
+19:20:23.399 INFO  wip/uploads/places/placeImg-1544217612874-tiny.jpg 
+19:20:23.432 INFO  wip/uploads/places/placeImg-1544217614902-tiny.jpg 
+19:20:23.443 INFO  [{"_id":"5c081398b4d4ef62cf82407b","name":"Caminhada","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033176679.png"}] 
+19:20:23.531 INFO  no error 
+19:20:23.584 INFO  no error 
+19:20:23.596 INFO  no error 
+19:20:23.598 INFO  no error 
+19:36:49.466 INFO  [] 
+19:36:49.466 INFO  User Data: 5c052b902b198679aadcfa91 
+19:36:49.468 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+15:20:22.258 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544376021541.jpg","path":"wip/uploads/places/placeImg-1544376021541.jpg","size":249749}] 
+15:20:22.258 INFO  User Data: 5c052b902b198679aadcfa91 
+15:20:22.569 INFO  wip/uploads/places/placeImg-1544376021541-tiny.jpg 
+15:20:22.577 INFO  [{"_id":"5c081c88b4d4ef62cf824092","name":"Tirolesa","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544035464138.png"}] 
+15:20:22.661 INFO  no error 
+15:20:22.689 INFO  no error 
+00:58:00.076 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544583479858.jpg","path":"wip/uploads/places/placeImg-1544583479858.jpg","size":34024},{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544583479900.jpg","path":"wip/uploads/places/placeImg-1544583479900.jpg","size":68188}] 
+00:58:00.076 INFO  User Data: 5c052b902b198679aadcfa91 
+00:58:00.102 INFO  wip/uploads/places/placeImg-1544583479858-tiny.jpg 
+00:58:00.174 INFO  wip/uploads/places/placeImg-1544583479900-tiny.jpg 
+00:58:00.189 INFO  [{"_id":"5c081398b4d4ef62cf82407b","name":"Caminhada","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033176679.png"}] 
+00:58:00.311 INFO  no error 
+00:58:00.472 INFO  no error 
+00:58:00.474 INFO  no error 
+00:58:00.485 INFO  no error 
+20:14:00.759 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1544652840687.jpg","path":"wip/uploads/places/placeImg-1544652840687.jpg","size":154061}] 
+20:14:00.759 INFO  User Data: 5c052b902b198679aadcfa91 
+20:14:00.786 INFO  wip/uploads/places/placeImg-1544652840687-tiny.jpg 
+20:14:00.791 INFO  [{"_id":"5c06d6624ace32f5742fc6b7","name":"Tênis de mesa","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951970600.png"}] 
+20:14:00.974 INFO  no error 
+20:14:00.977 INFO  no error 
+11:21:50.859 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545052910770.jpg","path":"wip/uploads/places/placeImg-1545052910770.jpg","size":84660},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545052910788.jpg","path":"wip/uploads/places/placeImg-1545052910788.jpg","size":103104},{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545052910845.jpg","path":"wip/uploads/places/placeImg-1545052910845.jpg","size":72657}] 
+11:21:50.859 INFO  User Data: 5c052b902b198679aadcfa91 
+11:21:50.890 INFO  wip/uploads/places/placeImg-1545052910770-tiny.jpg 
+11:21:50.910 INFO  wip/uploads/places/placeImg-1545052910788-tiny.jpg 
+11:21:51.073 INFO  wip/uploads/places/placeImg-1545052910845-tiny.jpg 
+11:21:51.085 INFO  [{"_id":"5c06d59b4ace32f5742fc6ac","name":"Boxe","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951771149.png"}] 
+11:21:51.164 INFO  no error 
+11:21:51.249 INFO  no error 
+11:21:51.290 INFO  no error 
+11:21:51.299 INFO  no error 
+11:21:51.331 INFO  no error 
+11:21:51.342 INFO  no error 
+19:34:43.522 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545341683438.jpg","path":"wip/uploads/places/placeImg-1545341683438.jpg","size":120690},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545341683476.jpg","path":"wip/uploads/places/placeImg-1545341683476.jpg","size":108529}] 
+19:34:43.522 INFO  User Data: 5c052b902b198679aadcfa91 
+19:34:43.559 INFO  wip/uploads/places/placeImg-1545341683438-tiny.jpg 
+19:34:43.574 INFO  wip/uploads/places/placeImg-1545341683476-tiny.jpg 
+19:34:43.580 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+19:34:43.805 INFO  no error 
+19:34:43.873 INFO  no error 
+19:34:43.876 INFO  no error 
+19:34:43.878 INFO  no error 
+00:10:18.018 INFO  [] 
+00:10:18.018 INFO  User Data: 5c052b902b198679aadcfa91 
+00:10:18.026 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Stand up surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+00:17:34.346 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545445036731.jpg","path":"wip/uploads/places/placeImg-1545445036731.jpg","size":3766557}] 
+00:17:34.346 INFO  User Data: 5c052b902b198679aadcfa91 
+00:17:34.370 INFO  wip/uploads/places/placeImg-1545445036731-tiny.jpg 
+00:17:34.374 INFO  [{"_id":"5c081409b4d4ef62cf824081","name":"Kitesurf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033289913.png"}] 
+00:17:35.651 INFO  no error 
+00:17:35.677 INFO  no error 
+10:07:01.601 INFO  [] 
+10:07:01.601 INFO  User Data: 5c052b902b198679aadcfa91 
+10:07:01.614 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+16:58:20.404 INFO  [] 
+16:58:20.404 INFO  User Data: 5c052b902b198679aadcfa91 
+16:58:20.409 INFO  [{"_id":"5c06d70b4ace32f5742fc6be"}] 
+17:11:48.163 INFO  [] 
+17:11:48.163 INFO  User Data: 5c052b902b198679aadcfa91 
+17:11:48.169 INFO  [{"_id":"5c06d70b4ace32f5742fc6be"}] 
+17:16:46.153 INFO  [] 
+17:16:46.153 INFO  User Data: 5c052b902b198679aadcfa91 
+17:16:46.159 INFO  [{"_id":"5c06d70b4ace32f5742fc6be"}] 
+17:28:41.510 INFO  [] 
+17:28:41.510 INFO  User Data: 5c052b902b198679aadcfa91 
+17:28:41.513 INFO  [{"_id":"5c06d70b4ace32f5742fc6be"}] 
+17:31:35.263 INFO  [] 
+17:31:35.263 INFO  User Data: 5c052b902b198679aadcfa91 
+17:31:35.269 INFO  [{"_id":"5c06d70b4ace32f5742fc6be"}] 
+17:37:49.600 INFO  [] 
+17:37:49.600 INFO  User Data: 5c052b902b198679aadcfa91 
+17:37:49.607 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+18:28:36.757 INFO  [] 
+18:28:36.757 INFO  User Data: 5c052b902b198679aadcfa91 
+18:28:36.760 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+18:34:48.613 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545770087941.jpg","path":"wip/uploads/places/placeImg-1545770087941.jpg","size":113873}] 
+18:34:48.613 INFO  User Data: 5c052b902b198679aadcfa91 
+18:34:48.639 INFO  wip/uploads/places/placeImg-1545770087941-tiny.jpg 
+18:34:48.643 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+18:34:48.807 INFO  no error 
+18:34:48.831 INFO  no error 
+18:37:15.097 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545770201021.jpg","path":"wip/uploads/places/placeImg-1545770201021.jpg","size":3766557}] 
+18:37:15.097 INFO  User Data: 5c052b902b198679aadcfa91 
+18:37:15.125 INFO  wip/uploads/places/placeImg-1545770201021-tiny.jpg 
+18:37:15.128 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+18:37:16.325 INFO  no error 
+18:37:16.353 INFO  no error 
+19:11:33.678 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_006.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545772264042.jpg","path":"wip/uploads/places/placeImg-1545772264042.jpg","size":1321008},{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545772278113.jpg","path":"wip/uploads/places/placeImg-1545772278113.jpg","size":1514019}] 
+19:11:33.678 INFO  User Data: 5c052b902b198679aadcfa91 
+19:11:33.716 INFO  wip/uploads/places/placeImg-1545772264042-tiny.jpg 
+19:11:33.789 INFO  wip/uploads/places/placeImg-1545772278113-tiny.jpg 
+19:11:33.793 INFO  [{"_id":"5c081409b4d4ef62cf824081","name":"Kitesurf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033289913.png"}] 
+19:11:36.224 INFO  no error 
+19:11:36.246 INFO  no error 
+19:11:37.010 INFO  no error 
+19:11:37.017 INFO  no error 
+21:12:15.534 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545779533324.jpg","path":"wip/uploads/places/placeImg-1545779533324.jpg","size":2208187}] 
+21:12:15.534 INFO  User Data: 5c052b902b198679aadcfa91 
+21:12:15.573 INFO  wip/uploads/places/placeImg-1545779533324-tiny.jpg 
+21:12:15.584 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+21:12:17.350 INFO  no error 
+21:12:17.396 INFO  no error 
+21:18:12.808 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545779891605.jpg","path":"wip/uploads/places/placeImg-1545779891605.jpg","size":19119},{"fieldname":"placeImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545779891606.jpg","path":"wip/uploads/places/placeImg-1545779891606.jpg","size":84560}] 
+21:18:12.808 INFO  User Data: 5c052b902b198679aadcfa91 
+21:18:12.842 INFO  wip/uploads/places/placeImg-1545779891605-tiny.jpg 
+21:18:12.904 INFO  wip/uploads/places/placeImg-1545779891606-tiny.jpg 
+21:18:12.906 INFO  no error 
+21:18:12.906 INFO  no error 
+21:18:12.908 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+21:18:12.991 INFO  no error 
+21:18:13.000 INFO  no error 
+19:28:42.137 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545859719567.jpg","path":"wip/uploads/places/placeImg-1545859719567.jpg","size":1818988},{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545859720745.jpg","path":"wip/uploads/places/placeImg-1545859720745.jpg","size":2260848}] 
+19:28:42.137 INFO  User Data: 5c052b902b198679aadcfa91 
+19:28:42.171 INFO  wip/uploads/places/placeImg-1545859719567-tiny.jpg 
+19:28:42.182 INFO  wip/uploads/places/placeImg-1545859720745-tiny.jpg 
+19:28:42.187 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+19:28:48.073 INFO  no error 
+19:28:49.418 INFO  no error 
+19:28:49.594 INFO  no error 
+19:28:49.825 INFO  no error 
+19:30:07.629 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545859805169.jpg","path":"wip/uploads/places/placeImg-1545859805169.jpg","size":1636475},{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545859805988.jpg","path":"wip/uploads/places/placeImg-1545859805988.jpg","size":1694596},{"fieldname":"placeImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545859806682.jpg","path":"wip/uploads/places/placeImg-1545859806682.jpg","size":1914482}] 
+19:30:07.629 INFO  User Data: 5c052b902b198679aadcfa91 
+19:30:07.654 INFO  wip/uploads/places/placeImg-1545859805169-tiny.jpg 
+19:30:07.736 INFO  wip/uploads/places/placeImg-1545859805988-tiny.jpg 
+19:30:07.854 INFO  wip/uploads/places/placeImg-1545859806682-tiny.jpg 
+19:30:07.861 INFO  [{"_id":"5c081409b4d4ef62cf824081","name":"Kitesurf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033289913.png"}] 
+19:30:15.182 INFO  no error 
+19:30:17.968 INFO  no error 
+19:30:18.296 INFO  no error 
+19:30:18.349 INFO  no error 
+19:30:18.362 INFO  no error 
+19:30:18.381 INFO  no error 
+19:38:50.926 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_007.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545860325625.jpg","path":"wip/uploads/places/placeImg-1545860325625.jpg","size":19119},{"fieldname":"placeImg","originalname":"cdv_photo_006.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545860325626.jpg","path":"wip/uploads/places/placeImg-1545860325626.jpg","size":84560}] 
+19:38:50.926 INFO  User Data: 5c052b902b198679aadcfa91 
+19:38:50.947 INFO  wip/uploads/places/placeImg-1545860325625-tiny.jpg 
+19:38:51.008 INFO  wip/uploads/places/placeImg-1545860325626-tiny.jpg 
+19:38:51.010 INFO  no error 
+19:38:51.011 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+19:38:51.057 INFO  no error 
+19:38:51.101 INFO  no error 
+19:38:51.110 INFO  no error 
+19:40:25.391 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_008.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545860379440.jpg","path":"wip/uploads/places/placeImg-1545860379440.jpg","size":84560}] 
+19:40:25.391 INFO  User Data: 5c052b902b198679aadcfa91 
+19:40:25.421 INFO  wip/uploads/places/placeImg-1545860379440-tiny.jpg 
+19:40:25.429 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+19:40:25.488 INFO  no error 
+19:40:25.504 INFO  no error 
+23:51:13.509 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1545961873255.jpg","path":"wip/uploads/places/placeImg-1545961873255.jpg","size":61935}] 
+23:51:13.509 INFO  User Data: 5c052b902b198679aadcfa91 
+23:51:13.544 INFO  wip/uploads/places/placeImg-1545961873255-tiny.jpg 
+23:51:13.551 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Stand up surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+23:51:13.687 INFO  no error 
+23:51:13.703 INFO  no error 
+13:44:39.340 INFO  [] 
+13:44:39.340 INFO  User Data: 5c052b902b198679aadcfa91 
+13:44:39.343 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Stand up surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+20:28:50.113 INFO  [] 
+20:28:50.113 INFO  User Data: 5c052b902b198679aadcfa91 
+20:28:50.115 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+20:30:08.174 INFO  [] 
+20:30:08.174 INFO  User Data: 5c052b902b198679aadcfa91 
+20:30:08.176 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+20:33:03.106 INFO  [] 
+20:33:03.106 INFO  User Data: 5c052b902b198679aadcfa91 
+20:33:03.108 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+20:35:08.101 INFO  [] 
+20:35:08.101 INFO  User Data: 5c052b902b198679aadcfa91 
+20:35:08.103 INFO  [{"_id":"5c06d7804ace32f5742fc6c2","name":"Xadrez","type":"Games","icon":"wip/uploads/modality/modalityIcon-1543952256289.png"}] 
+00:30:22.451 INFO  [] 
+00:30:22.451 INFO  User Data: 5c052b902b198679aadcfa81 
+00:30:22.453 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+00:35:19.873 INFO  [] 
+00:35:19.873 INFO  User Data: 5c052b902b198679aadcfa81 
+00:35:19.875 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+00:35:58.898 INFO  [] 
+00:35:58.898 INFO  User Data: 5c052b902b198679aadcfa81 
+00:35:58.899 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+00:36:34.389 INFO  [] 
+00:36:34.389 INFO  User Data: 5c052b902b198679aadcfa81 
+00:36:34.393 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+00:37:19.030 INFO  [] 
+00:37:19.030 INFO  User Data: 5c052b902b198679aadcfa81 
+00:37:19.033 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+00:38:56.495 INFO  [] 
+00:38:56.495 INFO  User Data: 5c052b902b198679aadcfa81 
+00:38:56.497 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+00:40:01.001 INFO  [] 
+00:40:01.001 INFO  User Data: 5c052b902b198679aadcfa81 
+00:40:01.003 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+00:40:44.508 INFO  [] 
+00:40:44.508 INFO  User Data: 5c052b902b198679aadcfa81 
+00:40:44.510 INFO  [{"_id":"5c17ae6d0e5e999bf6cf344a","name":"BMX","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055853945.png"}] 
+00:44:59.831 INFO  [] 
+00:44:59.831 INFO  User Data: 5c052b902b198679aadcfa81 
+00:44:59.834 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+00:47:10.794 INFO  [] 
+00:47:10.794 INFO  User Data: 5c052b902b198679aadcfa81 
+00:47:10.796 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+14:13:58.597 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546100037796.jpg","path":"wip/uploads/places/placeImg-1546100037796.jpg","size":61935}] 
+14:13:58.597 INFO  User Data: 5c052b902b198679aadcfa81 
+14:13:58.626 INFO  wip/uploads/places/placeImg-1546100037796-tiny.jpg 
+14:13:58.633 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Stand up surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+14:13:58.721 INFO  no error 
+14:13:58.735 INFO  no error 
+14:52:39.191 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546102358586.jpg","path":"wip/uploads/places/placeImg-1546102358586.jpg","size":84560},{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546102359137.jpg","path":"wip/uploads/places/placeImg-1546102359137.jpg","size":19119}] 
+14:52:39.191 INFO  User Data: 5c052b902b198679aadcfa81 
+14:52:39.214 INFO  wip/uploads/places/placeImg-1546102358586-tiny.jpg 
+14:52:39.304 INFO  wip/uploads/places/placeImg-1546102359137-tiny.jpg 
+14:52:39.317 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+14:52:39.343 INFO  no error 
+14:52:39.347 INFO  no error 
+14:52:39.443 INFO  no error 
+14:52:39.447 INFO  no error 
+14:56:35.078 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546102573483.jpg","path":"wip/uploads/places/placeImg-1546102573483.jpg","size":1163882},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546102583312.jpg","path":"wip/uploads/places/placeImg-1546102583312.jpg","size":1345182}] 
+14:56:35.078 INFO  User Data: 5c052b902b198679aadcfa81 
+14:56:35.117 INFO  wip/uploads/places/placeImg-1546102573483-tiny.jpg 
+14:56:35.193 INFO  wip/uploads/places/placeImg-1546102583312-tiny.jpg 
+14:56:35.198 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+14:56:37.696 INFO  no error 
+14:56:37.954 INFO  no error 
+14:56:38.267 INFO  no error 
+14:56:38.282 INFO  no error 
+08:49:39.994 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546253363890.jpg","path":"wip/uploads/places/placeImg-1546253363890.jpg","size":1992170},{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546253372060.jpg","path":"wip/uploads/places/placeImg-1546253372060.jpg","size":1858555}] 
+08:49:39.994 INFO  User Data: 5c052b902b198679aadcfa81 
+08:49:40.017 INFO  wip/uploads/places/placeImg-1546253363890-tiny.jpg 
+08:49:40.030 INFO  wip/uploads/places/placeImg-1546253372060-tiny.jpg 
+08:49:40.037 INFO  [{"_id":"5c06d5064ace32f5742fc6a9","name":"Musculação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951622799.png"}] 
+08:49:44.531 INFO  no error 
+08:49:44.622 INFO  no error 
+08:49:44.736 INFO  no error 
+08:49:45.421 INFO  no error 
+10:15:24.228 INFO  [] 
+10:15:24.228 INFO  User Data: 5c052b902b198679aadcfa81 
+10:15:24.232 INFO  [{"_id":"5c06d5064ace32f5742fc6a9","name":"Musculação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951622799.png"}] 
+22:36:59.844 INFO  [] 
+22:36:59.844 INFO  User Data: 5c052b902b198679aadcfa81 
+22:36:59.849 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+22:38:36.690 INFO  [] 
+22:38:36.690 INFO  User Data: 5c052b902b198679aadcfa81 
+22:38:36.692 INFO  [{"_id":"5c06d5064ace32f5742fc6a9","name":"Musculação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951622799.png"}] 
+01:30:10.953 INFO  [] 
+01:30:10.953 INFO  User Data: 5c052b902b198679aadcfa91 
+01:30:10.956 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+01:39:49.741 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546400389517.jpg","path":"wip/uploads/places/placeImg-1546400389517.jpg","size":58469}] 
+01:39:49.741 INFO  User Data: 5c052b902b198679aadcfa91 
+01:39:49.772 INFO  wip/uploads/places/placeImg-1546400389517-tiny.jpg 
+01:39:49.774 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+01:39:49.870 INFO  no error 
+01:39:49.888 INFO  no error 
+01:41:23.095 INFO  [] 
+01:41:23.095 INFO  User Data: 5c052b902b198679aadcfa91 
+01:41:23.097 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Stand up surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+01:42:15.795 INFO  [] 
+01:42:15.795 INFO  User Data: 5c052b902b198679aadcfa91 
+01:42:15.798 INFO  [{"_id":"5c06d5f24ace32f5742fc6b2","name":"Kayak","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951858794.png"}] 
+01:47:04.102 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546400750294.jpg","path":"wip/uploads/places/placeImg-1546400750294.jpg","size":13226},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546400750294.jpg","path":"wip/uploads/places/placeImg-1546400750294.jpg","size":69765}] 
+01:47:04.102 INFO  User Data: 5c052b902b198679aadcfa91 
+01:47:04.137 INFO  wip/uploads/places/placeImg-1546400750294-tiny.jpg 
+01:47:04.223 INFO  wip/uploads/places/placeImg-1546400750294-tiny.jpg 
+01:47:04.232 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+01:47:04.258 INFO  no error 
+01:47:04.290 INFO  no error 
+01:47:04.345 INFO  no error 
+01:47:04.350 INFO  no error 
+01:50:12.426 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546401011290.jpg","path":"wip/uploads/places/placeImg-1546401011290.jpg","size":58736},{"fieldname":"placeImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546401011468.jpg","path":"wip/uploads/places/placeImg-1546401011468.jpg","size":45270},{"fieldname":"placeImg","originalname":"cdv_photo_006.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546401011734.jpg","path":"wip/uploads/places/placeImg-1546401011734.jpg","size":57603}] 
+01:50:12.426 INFO  User Data: 5c052b902b198679aadcfa91 
+01:50:12.461 INFO  wip/uploads/places/placeImg-1546401011290-tiny.jpg 
+01:50:12.532 INFO  wip/uploads/places/placeImg-1546401011468-tiny.jpg 
+01:50:12.592 INFO  wip/uploads/places/placeImg-1546401011734-tiny.jpg 
+01:50:12.594 INFO  no error 
+01:50:12.594 INFO  no error 
+01:50:12.594 INFO  no error 
+01:50:12.595 INFO  [{"_id":"5c06d57a4ace32f5742fc6ab","name":"Basquetebol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951738966.png"},{"_id":"5c081372b4d4ef62cf824079","name":"Basquetebol de cadeira de rodas","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033138725.png"}] 
+01:50:12.617 INFO  no error 
+01:50:12.637 INFO  no error 
+01:50:12.647 INFO  no error 
+01:58:25.047 INFO  [] 
+01:58:25.047 INFO  User Data: 5c052b902b198679aadcfa91 
+01:58:25.049 INFO  [{"_id":"5c06d6dc4ace32f5742fc6bc","name":"Longboard (skate)","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952092737.png"}] 
+01:59:17.987 INFO  [] 
+01:59:17.987 INFO  User Data: 5c052b902b198679aadcfa91 
+01:59:18.007 INFO  [{"_id":"5c17adcd0e5e999bf6cf3446","name":"Paragliding","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055693409.png"}] 
+02:02:16.808 INFO  [] 
+02:02:16.808 INFO  User Data: 5c052b902b198679aadcfa91 
+02:02:16.810 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+02:02:45.221 INFO  [] 
+02:02:45.221 INFO  User Data: 5c052b902b198679aadcfa91 
+02:02:45.223 INFO  [{"_id":"5c06d64d4ace32f5742fc6b6","name":"Natação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951949380.png"}] 
+02:14:27.112 INFO  [] 
+02:14:27.112 INFO  User Data: 5c2c3a281492fbe30a7dd831 
+02:14:27.114 INFO  [{"_id":"5c0813aab4d4ef62cf82407c","name":"Capoeira","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033194908.png"}] 
+02:15:11.529 INFO  [] 
+02:15:11.529 INFO  User Data: 5c2c3a281492fbe30a7dd831 
+02:15:11.531 INFO  [{"_id":"5c081398b4d4ef62cf82407b","name":"Caminhada","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033176679.png"}] 
+02:15:53.811 INFO  [] 
+02:15:53.811 INFO  User Data: 5c2c3a281492fbe30a7dd831 
+02:15:53.815 INFO  [{"_id":"5c17ae6d0e5e999bf6cf344a","name":"BMX","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055853945.png"}] 
+02:17:21.003 INFO  [] 
+02:17:21.003 INFO  User Data: 5c2c3a281492fbe30a7dd831 
+02:17:21.005 INFO  [{"_id":"5c17adaf0e5e999bf6cf3445","name":"Karting","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055663345.png"}] 
+02:18:17.173 INFO  [] 
+02:18:17.173 INFO  User Data: 5c2c3a281492fbe30a7dd831 
+02:18:17.175 INFO  [{"_id":"5c081398b4d4ef62cf82407b","name":"Caminhada","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033176679.png"}] 
+02:20:05.713 INFO  [] 
+02:20:05.713 INFO  User Data: 5c2c3a281492fbe30a7dd831 
+02:20:05.716 INFO  [{"_id":"5c06d6dc4ace32f5742fc6bc","name":"Longboard (skate)","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952092737.png"}] 
+09:34:43.772 INFO  [] 
+09:34:43.772 INFO  User Data: 5c2b7de44e2a3b11c3c81f5c 
+09:34:43.776 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+17:47:58.473 INFO  [] 
+17:47:58.473 INFO  User Data: 5c2b7de44e2a3b11c3c81f5c 
+17:47:58.481 INFO  [{"_id":"5c081409b4d4ef62cf824081","name":"Kitesurf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033289913.png"}] 
+19:39:58.561 INFO  [] 
+19:39:58.561 INFO  User Data: 5c2c3a281492fbe30a7dd831 
+19:39:58.573 INFO  [{"_id":"5c06d5b34ace32f5742fc6ae","name":"Golf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951795212.png"}] 
+16:19:31.405 INFO  [] 
+16:19:31.405 INFO  User Data: 5c2b7d6a4e2a3b11c3c81f5b 
+16:19:31.410 INFO  [{"_id":"5c06d69d4ace32f5742fc6b9","name":"Sandboard","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952029082.png"}] 
+16:31:44.587 INFO  [{"fieldname":"placeImg","originalname":"1546799425322.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546799502294.jpg","path":"wip/uploads/places/placeImg-1546799502294.jpg","size":69122},{"fieldname":"placeImg","originalname":"1546799459299.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546799503265.jpg","path":"wip/uploads/places/placeImg-1546799503265.jpg","size":45531}] 
+16:31:44.587 INFO  User Data: 5c052b902b198679aadcfa91 
+16:31:44.631 INFO  wip/uploads/places/placeImg-1546799502294-tiny.jpg 
+16:31:44.652 INFO  wip/uploads/places/placeImg-1546799503265-tiny.jpg 
+16:31:44.656 INFO  [{"_id":"5c06da674ace32f5742fc6c3","name":"CrossFit","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952999152.png"}] 
+16:31:45.105 INFO  no error 
+16:31:45.134 INFO  no error 
+16:31:45.242 INFO  no error 
+16:31:45.247 INFO  no error 
+16:50:43.397 INFO  [{"fieldname":"placeImg","originalname":"1546800629252.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546800640693.jpg","path":"wip/uploads/places/placeImg-1546800640693.jpg","size":45531},{"fieldname":"placeImg","originalname":"1546800603495.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546800641687.jpg","path":"wip/uploads/places/placeImg-1546800641687.jpg","size":45531}] 
+16:50:43.397 INFO  User Data: 5c052b902b198679aadcfa91 
+16:50:43.430 INFO  wip/uploads/places/placeImg-1546800640693-tiny.jpg 
+16:50:43.513 INFO  wip/uploads/places/placeImg-1546800641687-tiny.jpg 
+16:50:43.526 INFO  [{"_id":"5c06da674ace32f5742fc6c3","name":"CrossFit","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952999152.png"}] 
+16:50:43.799 INFO  no error 
+16:50:43.864 INFO  no error 
+16:50:43.917 INFO  no error 
+16:50:43.974 INFO  no error 
+17:50:01.358 INFO  [{"fieldname":"placeImg","originalname":"1546804183329.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546804201203.jpg","path":"wip/uploads/places/placeImg-1546804201203.jpg","size":47887},{"fieldname":"placeImg","originalname":"1546804160891.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546804201203.jpg","path":"wip/uploads/places/placeImg-1546804201203.jpg","size":47887}] 
+17:50:01.358 INFO  User Data: 5c052b902b198679aadcfa91 
+17:50:01.407 INFO  wip/uploads/places/placeImg-1546804201203-tiny.jpg 
+17:50:01.502 INFO  wip/uploads/places/placeImg-1546804201203-tiny.jpg 
+17:50:01.508 INFO  [{"_id":"5c06da674ace32f5742fc6c3","name":"CrossFit","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952999152.png"}] 
+17:50:01.883 INFO  no error 
+17:50:02.006 INFO  no error 
+17:50:02.055 INFO  no error 
+17:50:02.078 INFO  no error 
+18:00:07.764 INFO  [{"fieldname":"placeImg","originalname":"1546804796202.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546804807461.jpg","path":"wip/uploads/places/placeImg-1546804807461.jpg","size":54322},{"fieldname":"placeImg","originalname":"1546804754839.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546804807575.jpg","path":"wip/uploads/places/placeImg-1546804807575.jpg","size":47887},{"fieldname":"placeImg","originalname":"1546804778168.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546804807597.jpg","path":"wip/uploads/places/placeImg-1546804807597.jpg","size":47887}] 
+18:00:07.764 INFO  User Data: 5c052b902b198679aadcfa91 
+18:00:07.801 INFO  wip/uploads/places/placeImg-1546804807461-tiny.jpg 
+18:00:07.894 INFO  wip/uploads/places/placeImg-1546804807575-tiny.jpg 
+18:00:08.014 INFO  wip/uploads/places/placeImg-1546804807597-tiny.jpg 
+18:00:08.027 INFO  [{"_id":"5c06d6144ace32f5742fc6b4","name":"Motocross","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951892265.png"}] 
+18:00:08.306 INFO  no error 
+18:00:08.507 INFO  no error 
+18:00:08.518 INFO  no error 
+18:00:08.560 INFO  no error 
+18:00:08.643 INFO  no error 
+18:00:08.674 INFO  no error 
+18:02:56.323 INFO  [{"fieldname":"placeImg","originalname":"1546804934440.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546804976280.jpg","path":"wip/uploads/places/placeImg-1546804976280.jpg","size":45184}] 
+18:02:56.323 INFO  User Data: 5c052b902b198679aadcfa91 
+18:02:56.361 INFO  wip/uploads/places/placeImg-1546804976280-tiny.jpg 
+18:02:56.364 INFO  [{"_id":"5c081599b4d4ef62cf82408c","name":"Polo aquático","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033689312.png"}] 
+18:02:56.565 INFO  no error 
+18:02:56.639 INFO  no error 
+18:14:56.189 INFO  [{"fieldname":"placeImg","originalname":"1546805689893.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546805696099.jpg","path":"wip/uploads/places/placeImg-1546805696099.jpg","size":45184}] 
+18:14:56.189 INFO  User Data: 5c052b902b198679aadcfa91 
+18:14:56.228 INFO  wip/uploads/places/placeImg-1546805696099-tiny.jpg 
+18:14:56.239 INFO  [{"_id":"5c081346b4d4ef62cf824078","name":"Badminton","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033094776.png"}] 
+18:14:56.447 INFO  no error 
+18:14:56.517 INFO  no error 
+19:28:30.759 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546810081672.jpg","path":"wip/uploads/places/placeImg-1546810081672.jpg","size":1932193},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546810096329.jpg","path":"wip/uploads/places/placeImg-1546810096329.jpg","size":2049704}] 
+19:28:30.759 INFO  User Data: 5c2b7d6a4e2a3b11c3c81f5b 
+19:28:30.801 INFO  wip/uploads/places/placeImg-1546810081672-tiny.jpg 
+19:28:30.872 INFO  wip/uploads/places/placeImg-1546810096329-tiny.jpg 
+19:28:30.878 INFO  [{"_id":"5c081588b4d4ef62cf82408b","name":"Off Road","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033672342.png"}] 
+19:28:34.645 INFO  no error 
+19:28:34.926 INFO  no error 
+19:28:35.040 INFO  no error 
+19:28:35.119 INFO  no error 
+19:40:35.846 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_007.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546810808752.jpg","path":"wip/uploads/places/placeImg-1546810808752.jpg","size":1932193},{"fieldname":"placeImg","originalname":"cdv_photo_006.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546810817185.jpg","path":"wip/uploads/places/placeImg-1546810817185.jpg","size":2049704},{"fieldname":"placeImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546810826767.jpg","path":"wip/uploads/places/placeImg-1546810826767.jpg","size":2183389}] 
+19:40:35.846 INFO  User Data: 5c2b7d6a4e2a3b11c3c81f5b 
+19:40:35.872 INFO  wip/uploads/places/placeImg-1546810808752-tiny.jpg 
+19:40:35.963 INFO  wip/uploads/places/placeImg-1546810817185-tiny.jpg 
+19:40:36.093 INFO  wip/uploads/places/placeImg-1546810826767-tiny.jpg 
+19:40:36.106 INFO  [{"_id":"5c081588b4d4ef62cf82408b","name":"Off Road","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033672342.png"}] 
+19:40:41.759 INFO  no error 
+19:40:42.175 INFO  no error 
+19:40:42.332 INFO  no error 
+19:40:42.484 INFO  no error 
+19:40:42.508 INFO  no error 
+19:40:42.554 INFO  no error 
+20:25:53.207 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813552537.jpg","path":"wip/uploads/places/placeImg-1546813552537.jpg","size":1932193}] 
+20:25:53.207 INFO  User Data: 5c2b7d6a4e2a3b11c3c81f5b 
+20:25:53.243 INFO  wip/uploads/places/placeImg-1546813552537-tiny.jpg 
+20:25:53.253 INFO  [{"_id":"5c06d5064ace32f5742fc6a9","name":"Musculação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951622799.png"}] 
+20:25:55.159 INFO  no error 
+20:25:55.286 INFO  no error 
+20:29:16.286 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813755086.jpg","path":"wip/uploads/places/placeImg-1546813755086.jpg","size":58736},{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813755094.jpg","path":"wip/uploads/places/placeImg-1546813755094.jpg","size":13226},{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813755157.jpg","path":"wip/uploads/places/placeImg-1546813755157.jpg","size":1137305}] 
+20:29:16.286 INFO  User Data: 5c2b7d6a4e2a3b11c3c81f5b 
+20:29:16.321 INFO  wip/uploads/places/placeImg-1546813755086-tiny.jpg 
+20:29:16.382 INFO  wip/uploads/places/placeImg-1546813755094-tiny.jpg 
+20:29:16.447 INFO  wip/uploads/places/placeImg-1546813755157-tiny.jpg 
+20:29:16.449 INFO  no error 
+20:29:16.449 INFO  no error 
+20:29:16.449 INFO  no error 
+20:29:16.449 INFO  no error 
+20:29:16.450 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+20:29:17.645 INFO  no error 
+20:29:17.726 INFO  no error 
+20:30:38.981 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_007.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813836268.jpg","path":"wip/uploads/places/placeImg-1546813836268.jpg","size":1137305},{"fieldname":"placeImg","originalname":"cdv_photo_006.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813836678.jpg","path":"wip/uploads/places/placeImg-1546813836678.jpg","size":1681155},{"fieldname":"placeImg","originalname":"cdv_photo_008.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813837107.jpg","path":"wip/uploads/places/placeImg-1546813837107.jpg","size":1828017},{"fieldname":"placeImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1546813838270.jpg","path":"wip/uploads/places/placeImg-1546813838270.jpg","size":2049704}] 
+20:30:38.981 INFO  User Data: 5c2b7d6a4e2a3b11c3c81f5b 
+20:30:39.020 INFO  wip/uploads/places/placeImg-1546813836268-tiny.jpg 
+20:30:39.097 INFO  wip/uploads/places/placeImg-1546813836678-tiny.jpg 
+20:30:39.181 INFO  wip/uploads/places/placeImg-1546813837107-tiny.jpg 
+20:30:39.326 INFO  wip/uploads/places/placeImg-1546813838270-tiny.jpg 
+20:30:39.329 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+20:30:43.545 INFO  no error 
+20:30:44.341 INFO  no error 
+20:30:46.265 INFO  no error 
+20:30:46.565 INFO  no error 
+20:30:46.812 INFO  no error 
+20:30:46.831 INFO  no error 
+20:30:46.944 INFO  no error 
+20:30:47.036 INFO  no error 
+15:14:39.679 INFO  json error: [object Object] 
+15:14:39.679 INFO  Cast to number failed for value "undefined" at path "__QueryCasting__" for model "Place"
+CastError: Cast to number failed for value "undefined" at path "__QueryCasting__" for model "Place"
+    at new CastError (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/error/cast.js:29:11)
+    at SchemaNumber.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:234:9)
+    at SchemaNumber.SchemaType.applySetters (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:724:12)
+    at SchemaNumber.SchemaType._castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1113:15)
+    at SchemaNumber.castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:285:14)
+    at SchemaNumber.SchemaType.castForQueryWrapper (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1082:15)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:320:27
+    at Array.forEach (<anonymous>)
+    at _cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:316:9)
+    at cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:223:13)
+    at model.Query.Query.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:3586:12)
+    at model.Query.Query._castConditions (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1392:10)
+    at model.Query.Query._find (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1407:8)
+    at process.nextTick (/home/napontadosdedos/apps_nodejs/wip/node_modules/kareem/index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+15:16:05.044 INFO  json error: [object Object] 
+15:16:05.044 INFO  Cast to number failed for value "undefined" at path "__QueryCasting__" for model "Place"
+CastError: Cast to number failed for value "undefined" at path "__QueryCasting__" for model "Place"
+    at new CastError (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/error/cast.js:29:11)
+    at SchemaNumber.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:234:9)
+    at SchemaNumber.SchemaType.applySetters (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:724:12)
+    at SchemaNumber.SchemaType._castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1113:15)
+    at SchemaNumber.castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:285:14)
+    at SchemaNumber.SchemaType.castForQueryWrapper (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1082:15)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:320:27
+    at Array.forEach (<anonymous>)
+    at _cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:316:9)
+    at cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:223:13)
+    at model.Query.Query.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:3586:12)
+    at model.Query.Query._castConditions (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1392:10)
+    at model.Query.Query._find (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1407:8)
+    at process.nextTick (/home/napontadosdedos/apps_nodejs/wip/node_modules/kareem/index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+15:19:20.482 INFO  json error: [object Object] 
+15:19:20.482 INFO  Cast to number failed for value "undefined" at path "__QueryCasting__" for model "Place"
+CastError: Cast to number failed for value "undefined" at path "__QueryCasting__" for model "Place"
+    at new CastError (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/error/cast.js:29:11)
+    at SchemaNumber.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:234:9)
+    at SchemaNumber.SchemaType.applySetters (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:724:12)
+    at SchemaNumber.SchemaType._castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1113:15)
+    at SchemaNumber.castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:285:14)
+    at SchemaNumber.SchemaType.castForQueryWrapper (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1082:15)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:320:27
+    at Array.forEach (<anonymous>)
+    at _cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:316:9)
+    at cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:223:13)
+    at model.Query.Query.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:3586:12)
+    at model.Query.Query._castConditions (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1392:10)
+    at model.Query.Query._find (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1407:8)
+    at process.nextTick (/home/napontadosdedos/apps_nodejs/wip/node_modules/kareem/index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+23:51:41.214 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547171500795.jpg","path":"wip/uploads/places/placeImg-1547171500795.jpg","size":637912},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547171500986.jpg","path":"wip/uploads/places/placeImg-1547171500986.jpg","size":864813}] 
+23:51:41.214 INFO  User Data: 5c052b902b198679aadcfa91 
+23:51:41.248 INFO  wip/uploads/places/placeImg-1547171500795-tiny.jpg 
+23:51:41.332 INFO  wip/uploads/places/placeImg-1547171500986-tiny.jpg 
+23:51:41.336 INFO  [{"_id":"5c06d7614ace32f5742fc6c1","name":"Voleibol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952225340.png"}] 
+23:51:43.862 INFO  no error 
+23:51:43.899 INFO  no error 
+23:51:44.823 INFO  no error 
+23:51:44.950 INFO  no error 
+11:04:12.434 INFO  [] 
+11:04:12.434 INFO  User Data: 5c052b902b198679aadcfa91 
+11:04:12.442 INFO  [{"_id":"5c06d6324ace32f5742fc6b5","name":"Enduro","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951922943.png"}] 
+11:07:55.513 INFO  [] 
+11:07:55.513 INFO  User Data: 5c052b902b198679aadcfa91 
+11:07:55.526 INFO  [{"_id":"5c06d6324ace32f5742fc6b5","name":"Enduro","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951922943.png"}] 
+13:05:55.006 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547219153036.jpg","path":"wip/uploads/places/placeImg-1547219153036.jpg","size":539584},{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547219153858.jpg","path":"wip/uploads/places/placeImg-1547219153858.jpg","size":637912}] 
+13:05:55.006 INFO  User Data: 5c052b902b198679aadcfa81 
+13:05:55.040 INFO  wip/uploads/places/placeImg-1547219153036-tiny.jpg 
+13:05:55.107 INFO  wip/uploads/places/placeImg-1547219153858-tiny.jpg 
+13:05:55.121 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+13:05:58.670 INFO  no error 
+13:05:58.891 INFO  no error 
+13:05:59.089 INFO  no error 
+13:05:59.127 INFO  no error 
+13:23:46.882 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_010.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547220226302.jpg","path":"wip/uploads/places/placeImg-1547220226302.jpg","size":39372}] 
+13:23:46.882 INFO  User Data: 5c052b902b198679aadcfa81 
+13:23:46.909 INFO  wip/uploads/places/placeImg-1547220226302-tiny.jpg 
+13:23:46.915 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Stand up surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+13:23:47.004 INFO  no error 
+13:23:47.021 INFO  no error 
+13:33:11.592 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_012.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547220789645.jpg","path":"wip/uploads/places/placeImg-1547220789645.jpg","size":28333},{"fieldname":"placeImg","originalname":"cdv_photo_013.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547220789645.jpg","path":"wip/uploads/places/placeImg-1547220789645.jpg","size":36906},{"fieldname":"placeImg","originalname":"cdv_photo_011.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547220791172.jpg","path":"wip/uploads/places/placeImg-1547220791172.jpg","size":35592}] 
+13:33:11.592 INFO  User Data: 5c052b902b198679aadcfa81 
+13:33:11.616 INFO  wip/uploads/places/placeImg-1547220789645-tiny.jpg 
+13:33:11.706 INFO  wip/uploads/places/placeImg-1547220789645-tiny.jpg 
+13:33:11.772 INFO  wip/uploads/places/placeImg-1547220791172-tiny.jpg 
+13:33:11.775 INFO  no error 
+13:33:11.776 INFO  no error 
+13:33:11.776 INFO  no error 
+13:33:11.788 INFO  [{"_id":"5c06d57a4ace32f5742fc6ab","name":"Basquetebol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951738966.png"},{"_id":"5c081372b4d4ef62cf824079","name":"Basquetebol de cadeira de rodas","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033138725.png"}] 
+13:33:11.805 INFO  no error 
+13:33:11.829 INFO  no error 
+13:33:11.845 INFO  no error 
+19:49:37.914 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547243377500.jpg","path":"wip/uploads/places/placeImg-1547243377500.jpg","size":539584},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547243377751.jpg","path":"wip/uploads/places/placeImg-1547243377751.jpg","size":637912}] 
+19:49:37.914 INFO  User Data: 5c38f1e33223b08b4ea49650 
+19:49:37.942 INFO  wip/uploads/places/placeImg-1547243377500-tiny.jpg 
+19:49:38.038 INFO  wip/uploads/places/placeImg-1547243377751-tiny.jpg 
+19:49:38.047 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+19:49:40.588 INFO  no error 
+19:49:40.608 INFO  no error 
+19:49:40.747 INFO  no error 
+19:49:40.789 INFO  no error 
+20:14:15.704 INFO  [] 
+20:14:15.704 INFO  User Data: 5c38f1e33223b08b4ea49650 
+20:14:15.707 INFO  [{"_id":"5c38f45b3223b08b4ea4965a","name":"Slackline","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1547236443527.png"}] 
+20:42:50.274 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547246570263.jpg","path":"wip/uploads/places/placeImg-1547246570263.jpg","size":12258},{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547246570263.jpg","path":"wip/uploads/places/placeImg-1547246570263.jpg","size":32521}] 
+20:42:50.274 INFO  User Data: 5c3918193223b08b4ea49666 
+20:42:50.309 INFO  wip/uploads/places/placeImg-1547246570263-tiny.jpg 
+20:42:50.374 INFO  wip/uploads/places/placeImg-1547246570263-tiny.jpg 
+20:42:50.377 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+20:42:50.388 INFO  no error 
+20:42:50.398 INFO  no error 
+20:42:50.435 INFO  no error 
+20:42:50.436 INFO  no error 
+20:44:45.650 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547246684019.jpg","path":"wip/uploads/places/placeImg-1547246684019.jpg","size":39372},{"fieldname":"placeImg","originalname":"cdv_photo_005.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547246684037.jpg","path":"wip/uploads/places/placeImg-1547246684037.jpg","size":777530},{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547246684794.jpg","path":"wip/uploads/places/placeImg-1547246684794.jpg","size":912684}] 
+20:44:45.650 INFO  User Data: 5c3918193223b08b4ea49666 
+20:44:45.685 INFO  wip/uploads/places/placeImg-1547246684019-tiny.jpg 
+20:44:45.754 INFO  wip/uploads/places/placeImg-1547246684037-tiny.jpg 
+20:44:45.863 INFO  wip/uploads/places/placeImg-1547246684794-tiny.jpg 
+20:44:45.865 INFO  no error 
+20:44:45.865 INFO  no error 
+20:44:45.866 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Standup paddle","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+20:44:49.956 INFO  no error 
+20:44:50.154 INFO  no error 
+20:44:50.163 INFO  no error 
+20:44:50.195 INFO  no error 
+11:27:49.135 INFO  [] 
+11:27:49.135 INFO  User Data: 5c3918193223b08b4ea49666 
+11:27:49.142 INFO  [{"_id":"5c06d7614ace32f5742fc6c1","name":"Voleibol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952225340.png"}] 
+11:32:10.912 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_007.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547299930827.jpg","path":"wip/uploads/places/placeImg-1547299930827.jpg","size":36906},{"fieldname":"placeImg","originalname":"cdv_photo_008.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547299930880.jpg","path":"wip/uploads/places/placeImg-1547299930880.jpg","size":28333}] 
+11:32:10.912 INFO  User Data: 5c3918193223b08b4ea49666 
+11:32:10.933 INFO  wip/uploads/places/placeImg-1547299930827-tiny.jpg 
+11:32:10.996 INFO  wip/uploads/places/placeImg-1547299930880-tiny.jpg 
+11:32:11.000 INFO  no error 
+11:32:11.000 INFO  no error 
+11:32:11.001 INFO  [{"_id":"5c06d57a4ace32f5742fc6ab","name":"Basquetebol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951738966.png"}] 
+11:32:11.047 INFO  no error 
+11:32:11.054 INFO  no error 
+11:33:11.370 INFO  [] 
+11:33:11.370 INFO  User Data: 5c3918193223b08b4ea49666 
+11:33:11.376 INFO  [{"_id":"5c17adcd0e5e999bf6cf3446","name":"Paragliding","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055693409.png"}] 
+11:34:19.345 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_009.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547300059321.jpg","path":"wip/uploads/places/placeImg-1547300059321.jpg","size":36850}] 
+11:34:19.345 INFO  User Data: 5c3918193223b08b4ea49666 
+11:34:19.375 INFO  wip/uploads/places/placeImg-1547300059321-tiny.jpg 
+11:34:19.382 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+11:34:19.446 INFO  no error 
+11:34:19.466 INFO  no error 
+11:34:55.151 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_010.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547300095142.jpg","path":"wip/uploads/places/placeImg-1547300095142.jpg","size":36850}] 
+11:34:55.151 INFO  User Data: 5c3918193223b08b4ea49666 
+11:34:55.176 INFO  wip/uploads/places/placeImg-1547300095142-tiny.jpg 
+11:34:55.187 INFO  [{"_id":"5c081483b4d4ef62cf824084","name":"Pesca","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033411879.png"}] 
+11:34:55.241 INFO  no error 
+11:34:55.262 INFO  no error 
+11:36:25.637 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_012.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547300185556.jpg","path":"wip/uploads/places/placeImg-1547300185556.jpg","size":8685},{"fieldname":"placeImg","originalname":"cdv_photo_011.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547300185557.jpg","path":"wip/uploads/places/placeImg-1547300185557.jpg","size":44109}] 
+11:36:25.637 INFO  User Data: 5c3918193223b08b4ea49666 
+11:36:25.686 INFO  wip/uploads/places/placeImg-1547300185556-tiny.jpg 
+11:36:25.747 INFO  wip/uploads/places/placeImg-1547300185557-tiny.jpg 
+11:36:25.749 INFO  no error 
+11:36:25.764 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+11:36:25.796 INFO  no error 
+11:36:25.839 INFO  no error 
+11:36:25.860 INFO  no error 
+11:37:12.274 INFO  [] 
+11:37:12.274 INFO  User Data: 5c3918193223b08b4ea49666 
+11:37:12.279 INFO  [{"_id":"5c06d6dc4ace32f5742fc6bc","name":"Longboard (skate)","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952092737.png"}] 
+11:38:22.701 INFO  [] 
+11:38:22.701 INFO  User Data: 5c3918193223b08b4ea49666 
+11:38:22.703 INFO  [{"_id":"5c38f34b3223b08b4ea49653","name":"Balonismo","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1547236171271.png"}] 
+19:31:16.459 INFO  [] 
+19:31:16.459 INFO  User Data: 5c3918193223b08b4ea49666 
+19:31:16.461 INFO  [{"_id":"5c38f4413223b08b4ea49659","name":"Salva vidas","type":"Suporte","icon":"wip/uploads/modality/modalityIcon-1547236417597.png"}] 
+20:00:15.887 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547330414018.jpg","path":"wip/uploads/places/placeImg-1547330414018.jpg","size":973198}] 
+20:00:15.887 INFO  User Data: 5c3918193223b08b4ea49666 
+20:00:15.918 INFO  wip/uploads/places/placeImg-1547330414018-tiny.jpg 
+20:00:15.925 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+20:00:17.787 INFO  no error 
+20:00:18.055 INFO  no error 
+20:02:32.921 INFO  [] 
+20:02:32.921 INFO  User Data: 5c3918193223b08b4ea49666 
+20:02:32.923 INFO  [{"_id":"5c081398b4d4ef62cf82407b","name":"Trekking","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033176679.png"}] 
+20:17:44.882 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547331464806.jpg","path":"wip/uploads/places/placeImg-1547331464806.jpg","size":12156},{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547331464806.jpg","path":"wip/uploads/places/placeImg-1547331464806.jpg","size":53172}] 
+20:17:44.882 INFO  User Data: 5c3918193223b08b4ea49666 
+20:17:44.929 INFO  wip/uploads/places/placeImg-1547331464806-tiny.jpg 
+20:17:44.999 INFO  wip/uploads/places/placeImg-1547331464806-tiny.jpg 
+20:17:45.012 INFO  [{"_id":"5c06d7014ace32f5742fc6bd","name":"Snorkeling","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952129761.png"}] 
+20:17:45.032 INFO  no error 
+20:17:45.075 INFO  no error 
+20:17:45.101 INFO  no error 
+20:17:45.108 INFO  no error 
+20:19:32.894 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547331572000.jpg","path":"wip/uploads/places/placeImg-1547331572000.jpg","size":973198}] 
+20:19:32.894 INFO  User Data: 5c3918193223b08b4ea49666 
+20:19:32.933 INFO  wip/uploads/places/placeImg-1547331572000-tiny.jpg 
+20:19:32.943 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+20:19:35.041 INFO  no error 
+20:19:35.083 INFO  no error 
+20:21:12.547 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547331668912.jpg","path":"wip/uploads/places/placeImg-1547331668912.jpg","size":767311}] 
+20:21:12.547 INFO  User Data: 5c3918193223b08b4ea49666 
+20:21:12.575 INFO  wip/uploads/places/placeImg-1547331668912-tiny.jpg 
+20:21:12.588 INFO  [{"_id":"5c06d5064ace32f5742fc6a9","name":"Musculação","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951622799.png"}] 
+20:21:14.649 INFO  no error 
+20:21:14.801 INFO  no error 
+09:40:39.907 INFO  [] 
+09:40:39.907 INFO  User Data: 5c3b22ce94a969c67562822a 
+09:40:39.910 INFO  [{"_id":"5c081588b4d4ef62cf82408b","name":"Off Road","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033672342.png"}] 
+18:45:54.890 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547412354654.jpg","path":"wip/uploads/places/placeImg-1547412354654.jpg","size":508429}] 
+18:45:54.890 INFO  User Data: 5c3918193223b08b4ea49666 
+18:45:54.917 INFO  wip/uploads/places/placeImg-1547412354654-tiny.jpg 
+18:45:54.929 INFO  [{"_id":"5c06d7614ace32f5742fc6c1","name":"Voleibol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952225340.png"}] 
+18:45:56.963 INFO  no error 
+18:45:57.206 INFO  no error 
+20:07:51.541 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_004.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547417225494.jpg","path":"wip/uploads/places/placeImg-1547417225494.jpg","size":670657},{"fieldname":"placeImg","originalname":"cdv_photo_001.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547417237888.jpg","path":"wip/uploads/places/placeImg-1547417237888.jpg","size":674501},{"fieldname":"placeImg","originalname":"cdv_photo_002.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547417248099.jpg","path":"wip/uploads/places/placeImg-1547417248099.jpg","size":744382},{"fieldname":"placeImg","originalname":"cdv_photo_003.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547417260320.jpg","path":"wip/uploads/places/placeImg-1547417260320.jpg","size":818489}] 
+20:07:51.541 INFO  User Data: 5c3918193223b08b4ea49666 
+20:07:51.565 INFO  wip/uploads/places/placeImg-1547417225494-tiny.jpg 
+20:07:51.674 INFO  wip/uploads/places/placeImg-1547417237888-tiny.jpg 
+20:07:51.816 INFO  wip/uploads/places/placeImg-1547417248099-tiny.jpg 
+20:07:51.964 INFO  wip/uploads/places/placeImg-1547417260320-tiny.jpg 
+20:07:51.976 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+20:08:00.023 INFO  no error 
+20:08:00.113 INFO  no error 
+20:08:00.127 INFO  no error 
+20:08:01.123 INFO  no error 
+20:08:01.203 INFO  no error 
+20:08:01.374 INFO  no error 
+20:08:01.398 INFO  no error 
+20:08:01.452 INFO  no error 
+22:43:25.986 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_011.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547426582151.jpg","path":"wip/uploads/places/placeImg-1547426582151.jpg","size":1547559},{"fieldname":"placeImg","originalname":"cdv_photo_012.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547426590932.jpg","path":"wip/uploads/places/placeImg-1547426590932.jpg","size":1555971},{"fieldname":"placeImg","originalname":"cdv_photo_010.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547426598707.jpg","path":"wip/uploads/places/placeImg-1547426598707.jpg","size":1537086}] 
+22:43:25.986 INFO  User Data: 5c3918193223b08b4ea49666 
+22:43:26.026 INFO  wip/uploads/places/placeImg-1547426582151-tiny.jpg 
+22:43:26.096 INFO  wip/uploads/places/placeImg-1547426590932-tiny.jpg 
+22:43:26.211 INFO  wip/uploads/places/placeImg-1547426598707-tiny.jpg 
+22:43:26.227 INFO  [{"_id":"5c081398b4d4ef62cf82407b","name":"Trekking","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033176679.png"}] 
+22:43:32.383 INFO  no error 
+22:43:32.732 INFO  no error 
+22:43:32.772 INFO  no error 
+22:43:33.295 INFO  no error 
+22:43:33.312 INFO  no error 
+22:43:33.400 INFO  no error 
+22:53:46.424 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_019.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547427209349.jpg","path":"wip/uploads/places/placeImg-1547427209349.jpg","size":785086},{"fieldname":"placeImg","originalname":"cdv_photo_017.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547427213776.jpg","path":"wip/uploads/places/placeImg-1547427213776.jpg","size":640164},{"fieldname":"placeImg","originalname":"cdv_photo_018.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547427218158.jpg","path":"wip/uploads/places/placeImg-1547427218158.jpg","size":733841},{"fieldname":"placeImg","originalname":"cdv_photo_020.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547427222999.jpg","path":"wip/uploads/places/placeImg-1547427222999.jpg","size":789088}] 
+22:53:46.424 INFO  User Data: 5c3918193223b08b4ea49666 
+22:53:46.450 INFO  wip/uploads/places/placeImg-1547427209349-tiny.jpg 
+22:53:46.536 INFO  wip/uploads/places/placeImg-1547427213776-tiny.jpg 
+22:53:46.642 INFO  wip/uploads/places/placeImg-1547427218158-tiny.jpg 
+22:53:46.797 INFO  wip/uploads/places/placeImg-1547427222999-tiny.jpg 
+22:53:46.811 INFO  [{"_id":"5c38f39c3223b08b4ea49654","name":"Beach tennis","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1547236252620.png"}] 
+22:53:53.741 INFO  no error 
+22:53:54.515 INFO  no error 
+22:53:54.739 INFO  no error 
+22:53:55.006 INFO  no error 
+22:53:55.042 INFO  no error 
+22:53:55.270 INFO  no error 
+22:53:55.385 INFO  no error 
+22:53:55.542 INFO  no error 
+22:58:30.493 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_021.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547427498433.jpg","path":"wip/uploads/places/placeImg-1547427498433.jpg","size":707417}] 
+22:58:30.493 INFO  User Data: 5c3918193223b08b4ea49666 
+22:58:30.519 INFO  wip/uploads/places/placeImg-1547427498433-tiny.jpg 
+22:58:30.527 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+22:58:33.558 INFO  no error 
+22:58:33.600 INFO  no error 
+23:01:22.962 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_022.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547427655971.jpg","path":"wip/uploads/places/placeImg-1547427655971.jpg","size":851931},{"fieldname":"placeImg","originalname":"cdv_photo_023.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547427671447.jpg","path":"wip/uploads/places/placeImg-1547427671447.jpg","size":944904}] 
+23:01:22.962 INFO  User Data: 5c3918193223b08b4ea49666 
+23:01:22.986 INFO  wip/uploads/places/placeImg-1547427655971-tiny.jpg 
+23:01:23.049 INFO  wip/uploads/places/placeImg-1547427671447-tiny.jpg 
+23:01:23.052 INFO  [{"_id":"5c06d6b84ace32f5742fc6bb","name":"Skate","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952056538.png"}] 
+23:01:28.736 INFO  no error 
+23:01:28.936 INFO  no error 
+23:01:29.017 INFO  no error 
+23:01:29.116 INFO  no error 
+18:09:49.064 INFO  [] 
+18:09:49.064 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:09:49.066 INFO  [{"_id":"5c081c3bb4d4ef62cf82408e","name":"Arvorismo","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544035387728.png"}] 
+18:10:49.076 INFO  [] 
+18:10:49.077 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:10:49.078 INFO  [{"_id":"5c17ae660e5e999bf6cf3449","name":"Yōga","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055846220.png"}] 
+18:11:21.305 INFO  [] 
+18:11:21.305 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:11:21.307 INFO  [{"_id":"5c17ae660e5e999bf6cf3449","name":"Yōga","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055846220.png"}] 
+18:17:11.380 INFO  [] 
+18:17:11.380 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:17:11.382 INFO  [{"_id":"5c17ae530e5e999bf6cf3448","name":"Standup paddle","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1545055827186.png"}] 
+18:18:51.904 INFO  [] 
+18:18:51.904 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:18:51.906 INFO  [{"_id":"5c081c3bb4d4ef62cf82408e","name":"Arvorismo","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544035387728.png"}] 
+18:20:09.825 INFO  [] 
+18:20:09.825 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:20:09.828 INFO  [{"_id":"5c0814d4b4d4ef62cf824087","name":"Softbol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033492831.png"}] 
+18:23:23.370 INFO  [] 
+18:23:23.370 INFO  User Data: 5c38f1e33223b08b4ea49650 
+18:23:23.372 INFO  [{"_id":"5c38f41b3223b08b4ea49657","name":"Hospital","type":"Suporte","icon":"wip/uploads/modality/modalityIcon-1547236379431.png"}] 
+19:20:27.320 INFO  [] 
+19:20:27.320 INFO  User Data: 5c38f1e33223b08b4ea49650 
+19:20:27.323 INFO  [{"_id":"5c06d70b4ace32f5742fc6be","name":"Surf","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543952139532.png"}] 
+19:37:32.931 INFO  [{"fieldname":"placeImg","originalname":"cdv_photo_008.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547674547687.jpg","path":"wip/uploads/places/placeImg-1547674547687.jpg","size":612434},{"fieldname":"placeImg","originalname":"cdv_photo_009.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547674577288.jpg","path":"wip/uploads/places/placeImg-1547674577288.jpg","size":612434},{"fieldname":"placeImg","originalname":"cdv_photo_007.jpg","encoding":"7bit","mimetype":"image/jpeg","destination":"wip/uploads/places/","filename":"placeImg-1547674590507.jpg","path":"wip/uploads/places/placeImg-1547674590507.jpg","size":656616}] 
+19:37:32.931 INFO  User Data: 5c38f1e33223b08b4ea49650 
+19:37:33.003 INFO  wip/uploads/places/placeImg-1547674547687-tiny.jpg 
+19:37:33.165 INFO  wip/uploads/places/placeImg-1547674577288-tiny.jpg 
+19:37:33.467 INFO  wip/uploads/places/placeImg-1547674590507-tiny.jpg 
+19:37:33.480 INFO  [{"_id":"5c06d5ac4ace32f5742fc6ad","name":"Futebol","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1543951788282.png"}] 
+19:37:41.830 INFO  no error 
+19:37:42.423 INFO  no error 
+19:37:42.562 INFO  no error 
+19:37:43.801 INFO  no error 
+19:37:44.272 INFO  no error 
+19:37:44.414 INFO  no error 
+19:37:45.099 INFO  no error 
+19:37:45.319 INFO  no error 
+19:37:45.462 INFO  no error 
+21:53:26.152 INFO  [] 
+21:53:26.152 INFO  User Data: 5c410ce1373a4bf0ac703cfe 
+21:53:26.157 INFO  [{"_id":"5c081398b4d4ef62cf82407b","name":"Trekking","type":"Esporte","icon":"wip/uploads/modality/modalityIcon-1544033176679.png"}] 
+13:03:55.825 INFO  json error: [object Object] 
+13:03:55.825 INFO  Cast to number failed for value "*" at path "__QueryCasting__" for model "Place"
+CastError: Cast to number failed for value "*" at path "__QueryCasting__" for model "Place"
+    at new CastError (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/error/cast.js:29:11)
+    at SchemaNumber.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:234:9)
+    at SchemaNumber.SchemaType.applySetters (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:724:12)
+    at SchemaNumber.SchemaType._castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1113:15)
+    at SchemaNumber.castForQuery (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schema/number.js:285:14)
+    at SchemaNumber.SchemaType.castForQueryWrapper (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/schematype.js:1082:15)
+    at cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/cast.js:185:49)
+    at model.Query.Query.cast (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:3586:12)
+    at model.Query.Query._castConditions (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1392:10)
+    at model.Query.Query._find (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongoose/lib/query.js:1407:8)
+    at process.nextTick (/home/napontadosdedos/apps_nodejs/wip/node_modules/kareem/index.js:333:33)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+13:16:30.739 INFO  json error: [object Object] 
+13:16:30.739 INFO  Failed to parse: { find: "places", filter: { $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, skip: 5, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+MongoError: Failed to parse: { find: "places", filter: { $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, skip: 5, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+    at queryCallback (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/cursor.js:247:25)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+13:19:05.766 INFO  json error: [object Object] 
+13:19:05.766 INFO  Failed to parse: { find: "places", filter: { $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, skip: 5, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+MongoError: Failed to parse: { find: "places", filter: { $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, skip: 5, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+    at queryCallback (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/cursor.js:247:25)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+13:32:37.863 INFO  json error: [object Object] 
+13:32:37.863 INFO  Failed to parse: { find: "places", filter: { $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, skip: 5, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+MongoError: Failed to parse: { find: "places", filter: { $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, skip: 5, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+    at queryCallback (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/cursor.js:247:25)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+13:35:13.771 INFO  perPage 0 
+13:35:13.781 INFO  json error: [object Object] 
+13:35:13.781 INFO  Failed to parse: { find: "places", filter: { location: { $near: { distanceField: "dist.calculated", $maxDistance: 50, $geometry: { type: "Point", coordinates: [ -51.5096576, -29.179904 ] } } }, $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+MongoError: Failed to parse: { find: "places", filter: { location: { $near: { distanceField: "dist.calculated", $maxDistance: 50, $geometry: { type: "Point", coordinates: [ -51.5096576, -29.179904 ] } } }, $or: [ { rating: { $exists: false } }, { rating: { $gte: 1 } } ] }, projection: { _id: 1, name: 1, rating: 1, modality: 1, location: 1, photo: 1, reviews.length: 1 }, limit: "5", returnKey: false, showRecordId: false }. 'limit' field must be numeric.
+    at queryCallback (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/cursor.js:247:25)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+13:38:15.830 INFO  perPage 0 
+13:39:30.287 INFO  perPage 0 

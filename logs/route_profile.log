@@ -1,0 +1,62 @@
+12:08:55.617 INFO  json error: [object Object] 
+12:08:55.617 INFO  $pullAll requires an array argument but was given a Object
+MongoError: $pullAll requires an array argument but was given a Object
+    at Function.MongoError.create (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/error.js:49:10)
+    at toError (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb/lib/utils.js:149:22)
+    at coll.s.topology.update (/home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb/lib/operations/collection_ops.js:1350:39)
+    at /home/napontadosdedos/apps_nodejs/wip/node_modules/mongodb-core/lib/connection/pool.js:531:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9) 
+20:28:01.920 INFO  no error 
+22:00:06.231 INFO  no error 
+09:30:50.082 INFO  no error 
+09:36:12.790 INFO  no error 
+10:37:16.865 INFO  no error 
+10:41:05.868 INFO  no error 
+10:42:34.741 INFO  no error 
+12:40:18.248 INFO  no error 
+12:40:56.040 INFO  no error 
+13:13:18.007 INFO  no error 
+13:13:39.646 INFO  no error 
+13:14:16.500 INFO  no error 
+19:01:28.219 INFO  no error 
+20:17:05.548 INFO  no error 
+20:17:36.311 INFO  no error 
+13:41:40.093 INFO  no error 
+21:39:35.515 INFO  no error 
+21:39:59.349 INFO  no error 
+21:44:17.366 INFO  no error 
+21:44:17.379 INFO  Command failed: convert: Empty input file `wip/uploads/profile/profileImg-1547423057310.jpg' @ error/jpeg.c/JPEGErrorHandler/318.
+convert: no images defined `wip/uploads/profile/profileImg-1547423057310-thumb.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+Error: Command failed: convert: Empty input file `wip/uploads/profile/profileImg-1547423057310.jpg' @ error/jpeg.c/JPEGErrorHandler/318.
+convert: no images defined `wip/uploads/profile/profileImg-1547423057310-thumb.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+    at ChildProcess.onExit (/home/napontadosdedos/apps_nodejs/wip/node_modules/gm/lib/command.js:301:17)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+21:52:21.518 INFO  Command failed: convert: Empty input file `wip/uploads/profile/profileImg-1547423541482.jpg' @ error/jpeg.c/JPEGErrorHandler/318.
+convert: no images defined `wip/uploads/profile/profileImg-1547423541482-thumb.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+Error: Command failed: convert: Empty input file `wip/uploads/profile/profileImg-1547423541482.jpg' @ error/jpeg.c/JPEGErrorHandler/318.
+convert: no images defined `wip/uploads/profile/profileImg-1547423541482-thumb.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+    at ChildProcess.onExit (/home/napontadosdedos/apps_nodejs/wip/node_modules/gm/lib/command.js:301:17)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 
+21:52:21.526 INFO  no error 
+21:59:35.963 INFO  no error 
+22:03:42.451 INFO  no error 
+22:37:19.868 INFO  no error 
+20:03:50.358 INFO  no error 
+19:04:12.976 INFO  no error 
+19:05:00.401 INFO  no error 
+21:17:15.598 INFO  no error 
+21:36:27.856 INFO  no error 
