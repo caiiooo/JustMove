@@ -5,13 +5,13 @@ const log = require("simple-node-logger").createSimpleLogger(
   "wip/logs/route_user.log"
 );
 require("dotenv").config();
-var gm = require('gm').subClass({imageMagick: true});
+var gm = require('gm').subClass({ imageMagick: true });
 var multer = require("multer");
 var storage = multer.diskStorage({
-  destination: function(req, file, cb) {
+  destination: function (req, file, cb) {
     cb(null, "wip/uploads/review/");
   },
-  filename: function(req, file, cb) {
+  filename: function (req, file, cb) {
     cb(
       null,
       file.fieldname + "-" + Date.now() + "." + file.originalname.split(".")[1]
@@ -34,7 +34,7 @@ const upload = multer({
 });
 
 //ENCRIPT SENHA
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 //TOKEN
 const jwt = require("jsonwebtoken");
 var randtoken = require("rand-token");
@@ -43,18 +43,18 @@ const User = require("../models/user");
 
 router.post("/singup", (req, res, next) => {
   // if(req.file){
-   
+
   //   var nameSpited = req.file.path.split('.');
-   
+
   //   var tinyName = nameSpited[0]+"-tiny."+nameSpited[1];
-   
+
   //   gm(element.path)
   //   .resize('20')
   //   .noProfile()
   //   .write(tinyName, function(err){
   //     if(!err){
   //       log.info('no error');
-       
+
   //     }else{
   //       log.info(err);
   //     }
@@ -66,50 +66,61 @@ router.post("/singup", (req, res, next) => {
   //   }
   // } 
 
+
   const emailReq = req.body.email.toLowerCase();
-  if(req.body.username.trim().length > 20){
+  if (req.body.username.trim().length > 20) 
     return res.status(409).json({
       message: "Nome de usuário pode ter no máximo 20 caracteres "
     });
-  }
+  if (!req.body.password || typeof req.body.password === "undefined" ) 
+    return res.status(409).json({
+      message: "Você precisa informar uma senha."
+    });
+  if (req.body.password.trim().length < 8) 
+    return res.status(409).json({
+      message: "A senha deve ter mais de 8 caracteres."
+    });
+  
 
   User.find({ email: emailReq })
     .exec()
     .then(user => {
-      if (user.length >= 1) {
+      if (user.length >= 1)
         return res.status(409).json({
           message: "E-mail já cadastrado"
         });
-      } else {
-        bcrypt.hash(req.body.password, 10, (err, hash) => {
-          if (err) {
-            return res.status(500).json({
-              error: err
-            });
-          } else {
-            const user = new User({
-              _id: new mongoose.Types.ObjectId(),
-              email: emailReq,
-              password: hash,
-              username: req.body.username,         
-            });
-            user
-              .save()
-              .then(result => {
-                console.log(result);
-                res.status(201).json({
-                  message: "User created"
-                });
-              })
-              .catch(err => {
-                console.log(err);
-                res.status(500).json({
-                  error: err
-                });
+    
+
+      bcrypt.hash(req.body.password, 10, (err, hash) => {
+        console.log(hash)
+        if (err) {
+          return res.status(500).json({
+            error: err
+          });
+        } else {
+          const user = new User({
+            _id: new mongoose.Types.ObjectId(),
+            email: emailReq,
+            password: hash,
+            username: req.body.username,
+          });
+          user
+            .save()
+            .then(result => {
+              console.log(result);
+              res.status(201).json({
+                message: "User created"
               });
-          }
-        });
-      }
+            })
+            .catch(err => {
+              console.log(err);
+              res.status(500).json({
+                error: "aqi" + err
+              });
+            });
+        }
+      });
+
     });
 });
 
@@ -144,7 +155,7 @@ router.post("/login", (req, res, next) => {
                 console.log(result);
                 return res.status(200).json({
                   message: "Autenticado com sucesso",
-                  user:{
+                  user: {
                     id: user._id,
                     username: user.username,
                     photo: user.photo,
@@ -180,7 +191,7 @@ router.post("/login", (req, res, next) => {
     });
 });
 
-router.post("/token", function(req, res, next) {
+router.post("/token", function (req, res, next) {
   const emailReq = req.body.email.toLowerCase();
   User.findOne({ email: emailReq })
     .exec()
@@ -211,7 +222,7 @@ router.post("/token", function(req, res, next) {
               console.log(result);
               return res.status(200).json({
                 message: "Atenticado com sucesso",
-                user:{
+                user: {
                   token: token,
                   refreshToken: refreshToken
                 }

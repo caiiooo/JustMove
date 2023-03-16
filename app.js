@@ -16,15 +16,12 @@ const chatRouter = require('./api/routes/chat');
 
 
 mongoose.connect(
-    "mongodb://" +
-      "napontadosdedo02" +
+    "mongodb+srv://" +
+      "caio" +
       ":" +
-      "Ladaca766" +
-      "@" +
-      "mongodb.napontadosdedos.com.br" +
-      ":27017/" +
-      "napontadosdedo02",
-    { useNewUrlParser: true }
+      "r3YV1xxgEpFqHfVW" +
+      "@cluster0.txezli4.mongodb.net/?retryWrites=true&w=majority",
+      {useNewUrlParser: true, useUnifiedTopology: true}
   );
 mongoose.Promise = global.Promise;
 
@@ -48,7 +45,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/chat', chatRouter);
+// app.use('/chat', chatRouter);
 app.use('/modalitys', modalitysRoutes);
 app.use('/places', placesRoutes);
 app.use('/review', reviewRouter);

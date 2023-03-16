@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [
     "node",
@@ -15,16 +15,18 @@
   "author": "Caio Diodi Fernandes",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.1",
+    "@google-cloud/storage": "^6.9.4",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "gm": "^1.23.1",
     "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.2.2",
+    "mongoose": "^7.0.2",
     "morgan": "^1.9.0",
     "multer": "^1.4.1",
     "node-gyp": "^3.8.0",
+    "nodemon": "^2.0.21",
     "rand-token": "^0.4.0",
     "simple-node-logger": "^0.93.40",
     "socket.io": "^2.2.0"
