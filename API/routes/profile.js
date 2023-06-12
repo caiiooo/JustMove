@@ -1,9 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-const log = require("simple-node-logger").createSimpleLogger(
-  "wip/logs/route_profile.log"
-);
+
 const checkAuth = require("../middleware/check-auth");
 require("dotenv").config();
 
@@ -61,8 +59,8 @@ router.get("/:user_id", (req, res, next) => {
       res.status(200).json(reponse);
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });
@@ -88,8 +86,8 @@ router.get("/adicionados/:user_id", (req, res, next) => {
       res.status(200).json(response);
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });
@@ -115,8 +113,8 @@ router.get("/review/:user_id", (req, res, next) => {
       res.status(200).json(response);
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });
@@ -153,8 +151,8 @@ router.post("/favorito/:place_id", checkAuth, (req, res, next) => {
             }
           })
           .catch(err => {
-            log.info(req);
-            log.info(err);
+            console.log(req);
+            console.log(err);
             res.status(500).json({
               error: err
             });
@@ -177,8 +175,8 @@ router.post("/favorito/:place_id", checkAuth, (req, res, next) => {
             }
           })
           .catch(err => {
-            log.info(req);
-            log.info(err);
+            console.log(req);
+            console.log(err);
             res.status(500).json({
               error: err
             });
@@ -186,8 +184,8 @@ router.post("/favorito/:place_id", checkAuth, (req, res, next) => {
       }
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });
@@ -209,10 +207,10 @@ router.post("/image", checkAuth, upload.single('profileImg'), (req, res, next) =
     .noProfile()
     .write(normalName, function(err){
       if(!err){
-        //log.info('no error');
+        //console.log('no error');
         //res.redirect('/');
       }else{
-        log.info(err);
+        console.log(err);
       }
     });
     gm(req.file.path)
@@ -222,10 +220,10 @@ router.post("/image", checkAuth, upload.single('profileImg'), (req, res, next) =
     .noProfile()
     .write(thumbName, function(err){
       if(!err){
-        //log.info('no error');
+        //console.log('no error');
         //res.redirect('/');
       }else{
-        log.info(err);
+        console.log(err);
       }
     });
     gm(req.file.path)
@@ -235,13 +233,13 @@ router.post("/image", checkAuth, upload.single('profileImg'), (req, res, next) =
     .noProfile()
     .write(tinyName, function(err) {
       if (!err) {
-        log.info("no error");
+        console.log("no error");
         //res.redirect('/');
       } else {
-        log.info(err);
+        console.log(err);
       }
     });
-    //log.info(tinyName);
+    //console.log(tinyName);
     var photoObj = {
       url: normalName,
       thumbUrl: thumbName,
@@ -266,8 +264,8 @@ router.post("/image", checkAuth, upload.single('profileImg'), (req, res, next) =
       }
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });

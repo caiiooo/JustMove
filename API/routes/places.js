@@ -5,9 +5,7 @@ const checkAuth = require("../middleware/check-auth");
 const Place = require("../models/place");
 const Modality = require("../models/modality");
 const User = require("../models/user");
-const log = require("simple-node-logger").createSimpleLogger(
-  "wip/logs/places.log"
-);
+
 var gm = require('gm').subClass({imageMagick: true});
 var multer = require("multer");
 var storage = multer.diskStorage({
@@ -48,8 +46,8 @@ router.get("/", (req, res, next) => {
       res.status(200).json(reponse);
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });
@@ -96,15 +94,15 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
   // else
   // distance = req.params.dist;
 
-  //log.info('req.param.rating ', parseInt(req.params.rating) >= 1);
+  //console.log('req.param.rating ', parseInt(req.params.rating) >= 1);
   if(parseInt(req.params.rating) >= 1){
     searchParameter.$or = [ { rating:  { "$exists" : false } }, { rating: {$gte : req.params.rating} } ];
   }
 
   
 
-  //log.info("Array modalitys", modalitys);
-  //log.info("searchParameter2",searchParameter);
+  //console.log("Array modalitys", modalitys);
+  //console.log("searchParameter2",searchParameter);
   // {
   //   "modality._id": { $in: modalitys },
   //   location: {
@@ -127,7 +125,7 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
   if(req.params.page){
     page = req.params.page
   }
-  //log.info('perPage '+ req.params.perPage + " type: " + typeof req.params.perPage);
+  //console.log('perPage '+ req.params.perPage + " type: " + typeof req.params.perPage);
   Place.find(searchParameter)
   .select("_id name rating modality location photo reviews.length")
   .limit(perPage)
@@ -163,8 +161,8 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
       res.status(200).json(response);
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });
@@ -194,8 +192,8 @@ router.get("/:place_id", (req, res, next) => {
 
 //checkAuth
 router.post("/", checkAuth, upload.array("placeImg", 5), (req, res, next) => {
-  log.info(req.files);
-  log.info("User Data: " + req.userData.id);
+  console.log(req.files);
+  console.log("User Data: " + req.userData.id);
   var photoArray = [];
 
   // console.log(req.file);
@@ -212,10 +210,10 @@ router.post("/", checkAuth, upload.array("placeImg", 5), (req, res, next) => {
     .noProfile()
     .write(thumbName, function(err){
       if(!err){
-        log.info('no error');
+        console.log('no error');
         //res.redirect('/');
       }else{
-        log.info(err);
+        console.log(err);
       }
     });
     gm(element.path)
@@ -223,10 +221,10 @@ router.post("/", checkAuth, upload.array("placeImg", 5), (req, res, next) => {
     .noProfile()
     .write(minithumbName, function(err){
       if(!err){
-        log.info('no error');
+        console.log('no error');
         //res.redirect('/');
       }else{
-        log.info(err);
+        console.log(err);
       }
     });
     gm(element.path)
@@ -234,13 +232,13 @@ router.post("/", checkAuth, upload.array("placeImg", 5), (req, res, next) => {
     .noProfile()
     .write(tinyName, function(err){
       if(!err){
-        log.info('no error');
+        console.log('no error');
         //res.redirect('/');
       }else{
-        log.info(err);
+        console.log(err);
       }
     });
-    log.info(tinyName);
+    console.log(tinyName);
     photoArray.push({
       url: element.path,
       thumbUrl: thumbName,
@@ -263,7 +261,7 @@ router.post("/", checkAuth, upload.array("placeImg", 5), (req, res, next) => {
   })
     .select("_id name icon type")
     .then(modailtyResult => {
-      log.info(modailtyResult);
+      console.log(modailtyResult);
       const place = new Place({
         _id: new mongoose.Types.ObjectId(),
         name: req.body.name,

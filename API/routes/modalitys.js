@@ -5,10 +5,6 @@ const checkAuth = require("../middleware/check-auth");
 const Modality = require("../models/modality");
 const ModalityPack = require("../models/modalityPack");
 
-const log = require("simple-node-logger").createSimpleLogger(
-  "wip/logs/modality.log"
-);
-
 var multer = require("multer");
 var storage = multer.diskStorage({
   destination: function(req, file, cb) {

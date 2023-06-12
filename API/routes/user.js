@@ -1,9 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-const log = require("simple-node-logger").createSimpleLogger(
-  "wip/logs/route_user.log"
-);
+
 require("dotenv").config();
 var gm = require('gm').subClass({ imageMagick: true });
 var multer = require("multer");
@@ -53,13 +51,13 @@ router.post("/singup", (req, res, next) => {
   //   .noProfile()
   //   .write(tinyName, function(err){
   //     if(!err){
-  //       log.info('no error');
+  //       console.log('no error');
 
   //     }else{
-  //       log.info(err);
+  //       console.log(err);
   //     }
   //   });
-  //   log.info(tinyName);
+  //   console.log(tinyName);
   //   photo = {
   //     url: element.path,
   //     tinyUrl: tinyName
@@ -129,7 +127,7 @@ router.post("/login", (req, res, next) => {
   User.findOne({ email: emailReq })
     .exec()
     .then(user => {
-      log.info(user);
+      console.log(user);
       if (user) {
         bcrypt.compare(req.body.password, user.password, (err, result) => {
           if (err) {

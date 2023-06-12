@@ -4,9 +4,7 @@ const mongoose = require("mongoose");
 const Place = require("../models/place");
 const User = require("../models/user");
 const checkAuth = require("../middleware/check-auth");
-const log = require("simple-node-logger").createSimpleLogger(
-  "wip/logs/review.log"
-);
+
 var gm = require("gm").subClass({ imageMagick: true });
 var multer = require("multer");
 var storage = multer.diskStorage({
@@ -36,8 +34,8 @@ const upload = multer({
 });
 
 router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
-  log.info(req.files);
-  log.info("User Data: " + req.userData.id);
+  console.log(req.files);
+  console.log("User Data: " + req.userData.id);
   var photoArray = [];
 
   // console.log(req.file);
@@ -54,10 +52,10 @@ router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
     .noProfile()
     .write(thumbName, function(err){
       if(!err){
-        log.info('no error');
+        console.log('no error');
         res.redirect('/');
       }else{
-        log.info(err);
+        console.log(err);
       }
     });
     gm(element.path)
@@ -65,10 +63,10 @@ router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
     .noProfile()
     .write(minithumbName, function(err){
       if(!err){
-        log.info('no error');
+        console.log('no error');
         res.redirect('/');
       }else{
-        log.info(err);
+        console.log(err);
       }
     });
     gm(element.path)
@@ -76,13 +74,13 @@ router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
       .noProfile()
       .write(tinyName, function(err) {
         if (!err) {
-          log.info("no error");
+          console.log("no error");
           //res.redirect('/');
         } else {
-          log.info(err);
+          console.log(err);
         }
       });
-    log.info(tinyName);
+    console.log(tinyName);
     photoArray.push({
       url: element.path,
       thumbUrl: thumbName,
@@ -93,16 +91,16 @@ router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
 
   User.findById(req.userData.id, "_id")
     .then(creator => {
-      //log.info(review);
+      //console.log(review);
       Place.findById(req.body.placeId)
         .then(place => {
           var currentReview = null;
           var ratingAntigo = 0;
           place.reviews.find(reviewplace => {
-            log.info("reviewplace.creator == req.userData.id "+ reviewplace.creator +" - "+ req.userData.id);
+            console.log("reviewplace.creator == req.userData.id "+ reviewplace.creator +" - "+ req.userData.id);
             if (reviewplace.creator == req.userData.id) {
               currentReview = reviewplace;
-              //log.info('user ja crio review nesse lugar');
+              //console.log('user ja crio review nesse lugar');
               reviewplace.creator = creator._id;
               ratingAntigo = reviewplace.rating;
               reviewplace.rating = req.body.rating;
@@ -115,28 +113,28 @@ router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
             }
           });
           if (currentReview) {
-            //log.info('entro aqui');
+            //console.log('entro aqui');
             if (typeof place.rating == "undefined" || place.rating == null) {
               place.rating = req.body.rating;
             } else {
-              //log.info('entro aqui tb');
-              //log.info(ratingAntigo +"-"+ req.body.rating);
+              //console.log('entro aqui tb');
+              //console.log(ratingAntigo +"-"+ req.body.rating);
               if (ratingAntigo != req.body.rating) {
-                //log.info('entro aqui tb 2');
-                //log.info('quant rating: '+ place.reviews.length);
+                //console.log('entro aqui tb 2');
+                //console.log('quant rating: '+ place.reviews.length);
                 var calculaRating = place.rating * place.reviews.length;
-                //log.info('calculaRating :'+calculaRating);
-                //log.info("typeof: "+ typeof calculaRating);
-                //log.info("typeof: "+ typeof ratingAntigo);
-                //log.info("typeof: "+ typeof req.body.rating);
+                //console.log('calculaRating :'+calculaRating);
+                //console.log("typeof: "+ typeof calculaRating);
+                //console.log("typeof: "+ typeof ratingAntigo);
+                //console.log("typeof: "+ typeof req.body.rating);
                 calculaRating =
                   calculaRating - ratingAntigo + parseInt(req.body.rating);
-                //log.info('soma calculaRating :'+calculaRating);
+                //console.log('soma calculaRating :'+calculaRating);
                 place.rating = calculaRating / place.reviews.length;
               }
             }
 
-            //log.info('saiu');
+            //console.log('saiu');
             //currentReview = review;
             place.save()            
             .then(result => {
@@ -166,11 +164,11 @@ router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
               var totalRating = parseInt(req.body.rating);
               place.reviews.forEach(ratingReview => {
                 totalRating += ratingReview.rating;
-                //log.info("review rating: "+ ratingReview.rating);
+                //console.log("review rating: "+ ratingReview.rating);
               });
-              //log.info("Soma rating: "+ totalRating);
+              //console.log("Soma rating: "+ totalRating);
               place.rating = totalRating / (place.reviews.length + 1);
-              //log.info("place.rating: "+ place.rating);
+              //console.log("place.rating: "+ place.rating);
             }
             place.reviews.push(review);
             place.save()            
@@ -191,16 +189,16 @@ router.post("/", checkAuth, upload.array("reviewImg", 5), (req, res, next) => {
           }
         })
         .catch(err => {
-          log.info(req);
-          log.info(err);
+          console.log(req);
+          console.log(err);
           res.status(500).json({
             error: err
           });
         });
     })
     .catch(err => {
-      log.info(req);
-      log.info(err);
+      console.log(req);
+      console.log(err);
       res.status(500).json({
         error: err
       });
