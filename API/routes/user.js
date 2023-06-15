@@ -1,35 +1,9 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-
+const { upload, bucket, uploadFiles } = require("../utils/storage");
 require("dotenv").config();
-var gm = require('gm').subClass({ imageMagick: true });
-var multer = require("multer");
-var storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, "wip/uploads/review/");
-  },
-  filename: function (req, file, cb) {
-    cb(
-      null,
-      file.fieldname + "-" + Date.now() + "." + file.originalname.split(".")[1]
-    );
-  }
-});
-const fileFilter = (req, file, cb) => {
-  if (file.mimetype === "image/jpeg" || file.mimetype === "image/png") {
-    cb(null, true);
-  } else {
-    cb(null, false);
-  }
-};
-const upload = multer({
-  storage: storage,
-  limits: {
-    fileSize: 1024 * 1024 * 5
-  },
-  fileFilter: fileFilter
-});
+var gm = require("gm").subClass({ imageMagick: true });
 
 //ENCRIPT SENHA
 const bcrypt = require("bcryptjs");
@@ -39,46 +13,29 @@ var randtoken = require("rand-token");
 
 const User = require("../models/user");
 
-router.post("/singup", (req, res, next) => {
-  // if(req.file){
+router.post("/singup", upload.single("photo"), async (req, res, next) => {
+  if (!req.body.username || !req.body.email || !req.body.password || !req.file)
+    res.status(400).json({
+      error: "Erro ao validar os campos"
+    });
 
-  //   var nameSpited = req.file.path.split('.');
-
-  //   var tinyName = nameSpited[0]+"-tiny."+nameSpited[1];
-
-  //   gm(element.path)
-  //   .resize('20')
-  //   .noProfile()
-  //   .write(tinyName, function(err){
-  //     if(!err){
-  //       console.log('no error');
-
-  //     }else{
-  //       console.log(err);
-  //     }
-  //   });
-  //   console.log(tinyName);
-  //   photo = {
-  //     url: element.path,
-  //     tinyUrl: tinyName
-  //   }
-  // } 
-
+  // Create a new blob in the bucket and upload the file data.
+  const url = await uploadFiles(req.file, "users");
+  // console.log(url)
 
   const emailReq = req.body.email.toLowerCase();
-  if (req.body.username.trim().length > 20) 
+  if (req.body.username.trim().length > 20)
     return res.status(409).json({
       message: "Nome de usuário pode ter no máximo 20 caracteres "
     });
-  if (!req.body.password || typeof req.body.password === "undefined" ) 
+  if (!req.body.password || typeof req.body.password === "undefined")
     return res.status(409).json({
       message: "Você precisa informar uma senha."
     });
-  if (req.body.password.trim().length < 8) 
+  if (req.body.password.trim().length < 8)
     return res.status(409).json({
       message: "A senha deve ter mais de 8 caracteres."
     });
-  
 
   User.find({ email: emailReq })
     .exec()
@@ -87,10 +44,9 @@ router.post("/singup", (req, res, next) => {
         return res.status(409).json({
           message: "E-mail já cadastrado"
         });
-    
 
       bcrypt.hash(req.body.password, 10, (err, hash) => {
-        console.log(hash)
+        console.log(hash);
         if (err) {
           return res.status(500).json({
             error: err
@@ -101,13 +57,15 @@ router.post("/singup", (req, res, next) => {
             email: emailReq,
             password: hash,
             username: req.body.username,
+            photo: { url }
           });
           user
             .save()
             .then(result => {
               console.log(result);
               res.status(201).json({
-                message: "User created"
+                message: "User created",
+                data: result
               });
             })
             .catch(err => {
@@ -118,7 +76,6 @@ router.post("/singup", (req, res, next) => {
             });
         }
       });
-
     });
 });
 
@@ -189,7 +146,7 @@ router.post("/login", (req, res, next) => {
     });
 });
 
-router.post("/token", function (req, res, next) {
+router.post("/token", function(req, res, next) {
   const emailReq = req.body.email.toLowerCase();
   User.findOne({ email: emailReq })
     .exec()
@@ -209,8 +166,8 @@ router.post("/token", function (req, res, next) {
               email: user.email,
               username: user.username
             },
-            'GSJsqetMU6nw3',
-            { expiresIn: '2h' }
+            "GSJsqetMU6nw3",
+            { expiresIn: "2h" }
           );
           var refreshToken = randtoken.uid(256);
           user.refreshToken = refreshToken;

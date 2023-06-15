@@ -6,13 +6,13 @@ const Place = require("../models/place");
 const Modality = require("../models/modality");
 const User = require("../models/user");
 
-var gm = require('gm').subClass({imageMagick: true});
+var gm = require('gm').subClass({ imageMagick: true });
 var multer = require("multer");
 var storage = multer.diskStorage({
-  destination: function(req, file, cb) {
+  destination: function (req, file, cb) {
     cb(null, "wip/uploads/places/");
   },
-  filename: function(req, file, cb) {
+  filename: function (req, file, cb) {
     cb(
       null,
       file.fieldname + "-" + Date.now() + "." + file.originalname.split(".")[1]
@@ -57,8 +57,8 @@ router.get("/", (req, res, next) => {
 router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) => {
   var searchParameter = {};
   var modalitys = [];
-  
-  if(req.query.modality){
+
+  if (req.query.modality) {
     if (Array.isArray(req.query.modality)) {
       modalitys = req.query.modality;
     } else {
@@ -66,17 +66,17 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
     }
     searchParameter = {
       "modality._id": { $in: modalitys },
-      
+
     }
   }
-  
+
 
   let distance = 0;
-  if(typeof req.params.dist == "undefined" || req.params.dist == null || req.params.dist == "*")
+  if (typeof req.params.dist == "undefined" || req.params.dist == null || req.params.dist == "*")
     distance = 99999000;
   else
     distance = req.params.dist;
- 
+
   searchParameter.location = {
     $near: {
       $maxDistance: distance,
@@ -84,9 +84,9 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
         type: req.params.type,
         coordinates: [req.params.long, req.params.latt]
       }
-    } 
+    }
   }
-  
+
 
   // let distance = 0;
   // if(typeof req.params.dist == "undefined" || req.params.dist == null)
@@ -95,11 +95,11 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
   // distance = req.params.dist;
 
   //console.log('req.param.rating ', parseInt(req.params.rating) >= 1);
-  if(parseInt(req.params.rating) >= 1){
-    searchParameter.$or = [ { rating:  { "$exists" : false } }, { rating: {$gte : req.params.rating} } ];
+  if (parseInt(req.params.rating) >= 1) {
+    searchParameter.$or = [{ rating: { "$exists": false } }, { rating: { $gte: req.params.rating } }];
   }
 
-  
+
 
   //console.log("Array modalitys", modalitys);
   //console.log("searchParameter2",searchParameter);
@@ -116,40 +116,40 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
   //   }
   //    rating: {$gt : 0}
   // }
-  
+
   var perPage = 5;
   var page = 0;
-  if(req.params.perPage){
+  if (req.params.perPage) {
     perPage = parseInt(req.params.perPage);
   }
-  if(req.params.page){
+  if (req.params.page) {
     page = req.params.page
   }
   //console.log('perPage '+ req.params.perPage + " type: " + typeof req.params.perPage);
   Place.find(searchParameter)
-  .select("_id name rating modality location photo reviews.length")
-  .limit(perPage)
-  .skip(perPage * page)
-  // .aggregate([
-  //   {
-  //     $geoNear: {
-  //        near: { type: "Point", coordinates: [ -73.99279 , 40.719296 ] },
-  //        distanceField: "dist.calculated",
-  //        maxDistance: distance,
-  //        includeLocs: "dist.location",
-  //        num: 5,
-  //        spherical: true
-  //     }
-  //   }
-  // ])
-  // .sort('mykey', 1)
-  // .sort({
-  //     name: 'asc'
-  // })
-  // .populate({
-  //   path: "reviews.creator",
-  //   select: "username photo"
-  // })
+    .select("_id name rating modality location photo reviews.length")
+    .limit(perPage)
+    .skip(perPage * page)
+    // .aggregate([
+    //   {
+    //     $geoNear: {
+    //        near: { type: "Point", coordinates: [ -73.99279 , 40.719296 ] },
+    //        distanceField: "dist.calculated",
+    //        maxDistance: distance,
+    //        includeLocs: "dist.location",
+    //        num: 5,
+    //        spherical: true
+    //     }
+    //   }
+    // ])
+    // .sort('mykey', 1)
+    // .sort({
+    //     name: 'asc'
+    // })
+    // .populate({
+    //   path: "reviews.creator",
+    //   select: "username photo"
+    // })
     .exec()
     .then(docs => {
       const response = {
@@ -173,10 +173,10 @@ router.get("/:place_id", (req, res, next) => {
   Place.findOne({
     _id: req.params.place_id
   })
-  .populate({
-    path: "reviews.creator",
-    select: "username photo"
-  })
+    .populate({
+      path: "reviews.creator",
+      select: "username photo"
+    })
     .exec()
     .then(docs => {
       //   if (docs >= 0) {
@@ -192,60 +192,69 @@ router.get("/:place_id", (req, res, next) => {
 
 //checkAuth
 router.post("/", checkAuth, upload.array("placeImg", 5), (req, res, next) => {
-  console.log(req.files);
-  console.log("User Data: " + req.userData.id);
   var photoArray = [];
+  if (req.files) {
+    console.log(req.files);
+    console.log("User Data: " + req.userData.id);
+    //Cria array de fotos com autores
+    req.files.forEach(element => {
+      var nameSpited = element.path.split('.');
+      var thumbName = nameSpited[0] + "-thumb." + nameSpited[1];
+      var minithumbName = nameSpited[0] + "-minithumb." + nameSpited[1];
+      var tinyName = nameSpited[0] + "-tiny." + nameSpited[1];
+      gm(element.path)
+        .resize('600')
+        .noProfile()
+        .write(thumbName, function (err) {
+          if (!err) {
+            console.log('no error');
+            //res.redirect('/');
+          } else {
+            console.log(err);
+          }
+        });
+      gm(element.path)
+        .resize(null, '135')
+        .noProfile()
+        .write(minithumbName, function (err) {
+          if (!err) {
+            console.log('no error');
+            //res.redirect('/');
+          } else {
+            console.log(err);
+          }
+        });
+      gm(element.path)
+        .resize('20')
+        .noProfile()
+        .write(tinyName, function (err) {
+          if (!err) {
+            console.log('no error');
+            //res.redirect('/');
+          } else {
+            console.log(err);
+          }
+        });
+      console.log(tinyName);
+      photoArray.push({
+        url: element.path,
+        thumbUrl: thumbName,
+        minithumbName: minithumbName,
+        tinyUrl: tinyName
+      });
+    });
+  }
+  // if (!Array.isArray(files)) files = [files];
+  // const imgUrls = [];
+  // for await (file of files) {
+  //   const url = await uploadFiles(file);
+  //   imgUrls.push(url);
+  // }
 
-  // console.log(req.file);
-  // console.log("Descripition " + req.body.description);
-
-  //Cria array de fotos com autores
-  req.files.forEach(element => {
-    var nameSpited = element.path.split('.');
-    var thumbName = nameSpited[0]+"-thumb."+nameSpited[1];
-    var minithumbName = nameSpited[0]+"-minithumb."+nameSpited[1];
-    var tinyName = nameSpited[0]+"-tiny."+nameSpited[1];
-    gm(element.path)
-    .resize('600')
-    .noProfile()
-    .write(thumbName, function(err){
-      if(!err){
-        console.log('no error');
-        //res.redirect('/');
-      }else{
-        console.log(err);
-      }
+  if (!req.body.modality || !req.body.name || !req.body.locationcoordinateslong || !req.body.locationcoordinateslatt)
+    res.status(400).json({
+      error: 'Erro ao validar os campos'
     });
-    gm(element.path)
-    .resize(null, '135')
-    .noProfile()
-    .write(minithumbName, function(err){
-      if(!err){
-        console.log('no error');
-        //res.redirect('/');
-      }else{
-        console.log(err);
-      }
-    });
-    gm(element.path)
-    .resize('20')
-    .noProfile()
-    .write(tinyName, function(err){
-      if(!err){
-        console.log('no error');
-        //res.redirect('/');
-      }else{
-        console.log(err);
-      }
-    });
-    console.log(tinyName);
-    photoArray.push({
-      url: element.path,
-      thumbUrl: thumbName,
-      minithumbName: minithumbName,
-      tinyUrl: tinyName
-    });
-  });
 
   //busca as icones das modalidades selecionadas
   var modalitys = [];

@@ -4,33 +4,7 @@ const mongoose = require("mongoose");
 const checkAuth = require("../middleware/check-auth");
 const Modality = require("../models/modality");
 const ModalityPack = require("../models/modalityPack");
-
-var multer = require("multer");
-var storage = multer.diskStorage({
-  destination: function(req, file, cb) {
-    cb(null, "wip/uploads/modality/");
-  },
-  filename: function(req, file, cb) {
-    cb(
-      null,
-      file.fieldname + "-" + Date.now() + "." + file.originalname.split(".")[1]
-    );
-  }
-});
-const fileFilter = (req, file, cb) => {
-  if (file.mimetype === "image/png") {
-    cb(null, true);
-  } else {
-    cb(null, false);
-  }
-};
-const upload = multer({
-  storage: storage,
-  limits: {
-    fileSize: 1024 * 1024
-  },
-  fileFilter: fileFilter
-});
+const {upload, bucket} = require("../utils/storage");
 
 router.get("/", (req, res, next) => {
   Modality.find()
@@ -58,32 +32,52 @@ router.get("/", (req, res, next) => {
 });
 
 router.post("/", checkAuth, upload.single("modalityIcon"), (req, res, next) => {
-  const modality = new Modality({
-    _id: new mongoose.Types.ObjectId(),
-    name: req.body.name,
-    type: req.body.type,
-    icon: req.file.path
+  if (!req.file) {
+    res.status(400).send('No file uploaded.');
+    return;
+  }
+  
+  // Create a new blob in the bucket and upload the file data.
+  const blob = bucket.file('modalitys/'+req.file.originalname);
+  const blobStream = blob.createWriteStream();
+
+  blobStream.on('error', err => {
+    console.log(err)
+    next(err);
   });
-  modality
-    .save()
-    .then(result => {
-      console.log(result);
-      res.status(201).json({
-        message: "Created modality successfuly",
-        createdModality: result
-      });
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json({
-        error: err
-      });
+
+  blobStream.on('finish', () => {
+    // The public URL can be used to directly access the file via HTTP.
+    const publicUrl = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
+    const modality = new Modality({
+      _id: new mongoose.Types.ObjectId(),
+      name: req.body.name,
+      type: req.body.type,
+      icon: publicUrl
     });
+    modality
+      .save()
+      .then(result => {
+        console.log(result);
+        res.status(201).json({
+          message: "Created modality successfuly",
+          createdModality: result
+        });
+      })
+      .catch(err => {
+        console.log(err);
+        res.status(500).json({
+          error: err
+        });
+      });
+  });
+
+  blobStream.end(req.file.buffer);
 });
 
 router.get("/pack", (req, res, next) => {
   ModalityPack.find()
-  .sort("+name")
+    .sort("+name")
     .populate({
       path: "modalitys.modality",
       select: "name"
@@ -115,7 +109,7 @@ router.post("/pack", (req, res, next) => {
   const modalityPack = new ModalityPack({
     _id: new mongoose.Types.ObjectId(),
     name: req.body.name,
-    modalitys:req.body.modalitys
+    modalitys: req.body.modalitys
   });
   modalityPack
     .save()

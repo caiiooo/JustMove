@@ -14,9 +14,7 @@ const userSchema = mongoose.Schema({
   pais: { type: String },
   language: { type: String },
   photo: { 
-    url: String,
-    thumbUrl: String ,
-    tinyUrl: String 
+    url: String
   },
   username: { type: String },
 
