@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
 const { upload, uploadFiles } = require("../utils/storage");
+const { reduceImageSize } = require("../utils/image");
 require("dotenv").config();
 
 //ENCRIPT SENHA

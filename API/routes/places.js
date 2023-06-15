@@ -5,25 +5,25 @@ const checkAuth = require("../middleware/check-auth");
 const Place = require("../models/place");
 const Modality = require("../models/modality");
 const User = require("../models/user");
-// const 
-const {upload, uploadFiles} = require('../utils/storage')
+// const
+const { upload, uploadFiles } = require("../utils/storage");
 
 router.get("/", (req, res, next) => {
   Place.find()
     .exec()
-    .then(docs => {
+    .then((docs) => {
       const reponse = {
         count: docs.length,
-        places: docs
+        places: docs,
       };
       //   if (docs >= 0) {
       res.status(200).json(reponse);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(req);
       console.log(err);
       res.status(500).json({
-        error: err
+        error: err,
       });
     });
 });
@@ -40,27 +40,22 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
     }
     searchParameter = {
       "modality._id": { $in: modalitys },
-
-    }
+    };
   }
 
-
   let distance = 0;
-  if (typeof req.params.dist == "undefined" || req.params.dist == null || req.params.dist == "*")
-    distance = 99999000;
-  else
-    distance = req.params.dist;
+  if (typeof req.params.dist == "undefined" || req.params.dist == null || req.params.dist == "*") distance = 99999000;
+  else distance = req.params.dist;
 
   searchParameter.location = {
     $near: {
       $maxDistance: distance,
       $geometry: {
         type: req.params.type,
-        coordinates: [req.params.long, req.params.latt]
-      }
-    }
-  }
-
+        coordinates: [req.params.long, req.params.latt],
+      },
+    },
+  };
 
   // let distance = 0;
   // if(typeof req.params.dist == "undefined" || req.params.dist == null)
@@ -70,10 +65,8 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
 
   //console.log('req.param.rating ', parseInt(req.params.rating) >= 1);
   if (parseInt(req.params.rating) >= 1) {
-    searchParameter.$or = [{ rating: { "$exists": false } }, { rating: { $gte: req.params.rating } }];
+    searchParameter.$or = [{ rating: { $exists: false } }, { rating: { $gte: req.params.rating } }];
   }
-
-
 
   //console.log("Array modalitys", modalitys);
   //console.log("searchParameter2",searchParameter);
@@ -97,7 +90,7 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
     perPage = parseInt(req.params.perPage);
   }
   if (req.params.page) {
-    page = req.params.page
+    page = req.params.page;
   }
   //console.log('perPage '+ req.params.perPage + " type: " + typeof req.params.perPage);
   Place.find(searchParameter)
@@ -125,59 +118,61 @@ router.get("/:rating/:dist/:type/:long/:latt/:perPage/:page", (req, res, next) =
     //   select: "username photo"
     // })
     .exec()
-    .then(docs => {
+    .then((docs) => {
       const response = {
         count: docs.length,
         places: docs,
-        time: new Date().getTime()
+        time: new Date().getTime(),
       };
       //   if (docs >= 0) {
       res.status(200).json(response);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(req);
       console.log(err);
       res.status(500).json({
-        error: err
+        error: err,
       });
     });
 });
 
 router.get("/:place_id", (req, res, next) => {
   Place.findOne({
-    _id: req.params.place_id
+    _id: req.params.place_id,
   })
     .populate({
       path: "reviews.creator",
-      select: "username photo"
+      select: "username photo",
     })
     .exec()
-    .then(docs => {
+    .then((docs) => {
       //   if (docs >= 0) {
       res.status(200).json(docs);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json({
-        error: err
+        error: err,
       });
     });
 });
 
 //checkAuth
-router.post("/", checkAuth, upload.array("placeImg", 5), async (req, res, next) => {
-  var photoArray = [];
+router.post("/", checkAuth, upload.array("placeImages", 5), async (req, res, next) => {
+  console.log(req.files)
+  if (!req.body.modality || !req.body.name || !req.body.locationcoordinateslong || !req.body.locationcoordinateslatt || !req.files)
+    return  res.status(406).json({
+      error: "Erro ao validar os campos",
+    });
+
+  console.log(req.files);
+  let files = req.files;
   if (!Array.isArray(files)) files = [files];
   const imgUrls = [];
   for await (file of files) {
-    const url = await uploadFiles(file);
-    imgUrls.photoArray(url);
+    const url = await uploadFiles(file, "places");
+    imgUrls.push({ url: url });
   }
-
-  if (!req.body.modality || !req.body.name || !req.body.locationcoordinateslong || !req.body.locationcoordinateslatt)
-    res.status(400).json({
-      error: 'Erro ao validar os campos'
-    });
 
   //busca as icones das modalidades selecionadas
   var modalitys = [];
@@ -189,36 +184,33 @@ router.post("/", checkAuth, upload.array("placeImg", 5), async (req, res, next) 
   console.log("modalitys", modalitys);
 
   Modality.find({
-    _id: { $in: modalitys }
+    _id: { $in: modalitys },
   })
     .select("_id name icon type")
-    .then(modailtyResult => {
+    .then((modailtyResult) => {
       console.log(modailtyResult);
       const place = new Place({
         _id: new mongoose.Types.ObjectId(),
         name: req.body.name,
-        photo: photoArray,
+        photo: imgUrls,
         creator: {
           _id: req.userData.id,
           email: req.userData.email,
-          username: req.userData.username
+          username: req.userData.username,
         },
         location: {
           type: req.body.locationtype,
-          coordinates: [
-            req.body.locationcoordinateslong,
-            req.body.locationcoordinateslatt
-          ]
+          coordinates: [req.body.locationcoordinateslong, req.body.locationcoordinateslatt],
         },
-        modality: modailtyResult
+        modality: modailtyResult,
       });
 
       place
         .save()
-        .then(result => {
+        .then((result) => {
           res.status(201).json({
             message: "Created place successfuly",
-            createdPlace: result
+            createdPlace: result,
           });
 
           //UPDATE MODALITYS quantPlace
@@ -229,17 +221,17 @@ router.post("/", checkAuth, upload.array("placeImg", 5), async (req, res, next) 
             update = { $inc: { lugareAdicionados: 1 } };
           User.updateOne(conditions, update).exec();
         })
-        .catch(err => {
+        .catch((err) => {
           console.log(err);
           res.status(500).json({
-            error: err
+            error: err,
           });
         });
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json({
-        error: err
+        error: err,
       });
     });
 });
@@ -253,7 +245,7 @@ router.post("/", checkAuth, upload.array("placeImg", 5), async (req, res, next) 
 router.delete("/:orderId", (req, res, next) => {
   res.status(200).json({
     message: "Place deleted!",
-    id: req.params.orderId
+    id: req.params.orderId,
   });
 });
 
@@ -262,9 +254,7 @@ function distance(lat1, lon1, lat2, lon2, unit) {
   var radlat2 = (Math.PI * lat2) / 180;
   var theta = lon1 - lon2;
   var radtheta = (Math.PI * theta) / 180;
-  var dist =
-    Math.sin(radlat1) * Math.sin(radlat2) +
-    Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+  var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
   if (dist > 1) {
     dist = 1;
   }
