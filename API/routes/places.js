@@ -5,34 +5,8 @@ const checkAuth = require("../middleware/check-auth");
 const Place = require("../models/place");
 const Modality = require("../models/modality");
 const User = require("../models/user");
-
-var gm = require('gm').subClass({ imageMagick: true });
-var multer = require("multer");
-var storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, "wip/uploads/places/");
-  },
-  filename: function (req, file, cb) {
-    cb(
-      null,
-      file.fieldname + "-" + Date.now() + "." + file.originalname.split(".")[1]
-    );
-  }
-});
-const fileFilter = (req, file, cb) => {
-  if (file.mimetype === "image/jpeg" || file.mimetype === "image/png") {
-    cb(null, true);
-  } else {
-    cb(null, false);
-  }
-};
-const upload = multer({
-  storage: storage,
-  limits: {
-    fileSize: 1024 * 1024 * 5
-  },
-  fileFilter: fileFilter
-});
+// const 
+const {upload, uploadFiles} = require('../utils/storage')
 
 router.get("/", (req, res, next) => {
   Place.find()
@@ -191,65 +165,14 @@ router.get("/:place_id", (req, res, next) => {
 });
 
 //checkAuth
-router.post("/", checkAuth, upload.array("placeImg", 5), (req, res, next) => {
+router.post("/", checkAuth, upload.array("placeImg", 5), async (req, res, next) => {
   var photoArray = [];
-  if (req.files) {
-    console.log(req.files);
-    console.log("User Data: " + req.userData.id);
-    //Cria array de fotos com autores
-    req.files.forEach(element => {
-      var nameSpited = element.path.split('.');
-      var thumbName = nameSpited[0] + "-thumb." + nameSpited[1];
-      var minithumbName = nameSpited[0] + "-minithumb." + nameSpited[1];
-      var tinyName = nameSpited[0] + "-tiny." + nameSpited[1];
-      gm(element.path)
-        .resize('600')
-        .noProfile()
-        .write(thumbName, function (err) {
-          if (!err) {
-            console.log('no error');
-            //res.redirect('/');
-          } else {
-            console.log(err);
-          }
-        });
-      gm(element.path)
-        .resize(null, '135')
-        .noProfile()
-        .write(minithumbName, function (err) {
-          if (!err) {
-            console.log('no error');
-            //res.redirect('/');
-          } else {
-            console.log(err);
-          }
-        });
-      gm(element.path)
-        .resize('20')
-        .noProfile()
-        .write(tinyName, function (err) {
-          if (!err) {
-            console.log('no error');
-            //res.redirect('/');
-          } else {
-            console.log(err);
-          }
-        });
-      console.log(tinyName);
-      photoArray.push({
-        url: element.path,
-        thumbUrl: thumbName,
-        minithumbName: minithumbName,
-        tinyUrl: tinyName
-      });
-    });
+  if (!Array.isArray(files)) files = [files];
+  const imgUrls = [];
+  for await (file of files) {
+    const url = await uploadFiles(file);
+    imgUrls.photoArray(url);
   }
-  // if (!Array.isArray(files)) files = [files];
-  // const imgUrls = [];
-  // for await (file of files) {
-  //   const url = await uploadFiles(file);
-  //   imgUrls.push(url);
-  // }
 
   if (!req.body.modality || !req.body.name || !req.body.locationcoordinateslong || !req.body.locationcoordinateslatt)
     res.status(400).json({

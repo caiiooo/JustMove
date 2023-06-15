@@ -1,9 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-const { upload, bucket, uploadFiles } = require("../utils/storage");
+const { upload, uploadFiles } = require("../utils/storage");
 require("dotenv").config();
-var gm = require("gm").subClass({ imageMagick: true });
 
 //ENCRIPT SENHA
 const bcrypt = require("bcryptjs");
@@ -13,43 +12,43 @@ var randtoken = require("rand-token");
 
 const User = require("../models/user");
 
-router.post("/singup", upload.single("photo"), async (req, res, next) => {
-  if (!req.body.username || !req.body.email || !req.body.password || !req.file)
-    res.status(400).json({
-      error: "Erro ao validar os campos"
+router.post("/singup", upload.single("photo"), (req, res, next) => {
+  console.log(req.file);
+  if (!req.body.username || !req.body.email || !req.body.password || !req.file || typeof req.file === "undefined")
+    return res.status(406).json({
+      error: "Erro ao validar os campos",
     });
 
   // Create a new blob in the bucket and upload the file data.
-  const url = await uploadFiles(req.file, "users");
   // console.log(url)
 
   const emailReq = req.body.email.toLowerCase();
   if (req.body.username.trim().length > 20)
-    return res.status(409).json({
-      message: "Nome de usuário pode ter no máximo 20 caracteres "
+    return res.status(406).json({
+      error: "Nome de usuário pode ter no máximo 20 caracteres ",
     });
   if (!req.body.password || typeof req.body.password === "undefined")
-    return res.status(409).json({
-      message: "Você precisa informar uma senha."
+    return res.status(406).json({
+      error: "Você precisa informar uma senha.",
     });
   if (req.body.password.trim().length < 8)
-    return res.status(409).json({
-      message: "A senha deve ter mais de 8 caracteres."
+    return res.status(406).json({
+      error: "A senha deve ter mais de 8 caracteres.",
     });
 
   User.find({ email: emailReq })
     .exec()
-    .then(user => {
+    .then(async (user) => {
       if (user.length >= 1)
-        return res.status(409).json({
-          message: "E-mail já cadastrado"
+        return res.status(406).json({
+          error: "E-mail já cadastrado",
         });
-
+      const url = await uploadFiles(req.file, "users");
       bcrypt.hash(req.body.password, 10, (err, hash) => {
         console.log(hash);
         if (err) {
           return res.status(500).json({
-            error: err
+            error: err,
           });
         } else {
           const user = new User({
@@ -57,21 +56,21 @@ router.post("/singup", upload.single("photo"), async (req, res, next) => {
             email: emailReq,
             password: hash,
             username: req.body.username,
-            photo: { url }
+            photo: { url },
           });
           user
             .save()
-            .then(result => {
+            .then((result) => {
               console.log(result);
               res.status(201).json({
                 message: "User created",
-                data: result
+                data: result,
               });
             })
-            .catch(err => {
+            .catch((err) => {
               console.log(err);
               res.status(500).json({
-                error: "aqi" + err
+                error: "aqi" + err,
               });
             });
         }
@@ -83,13 +82,13 @@ router.post("/login", (req, res, next) => {
   const emailReq = req.body.email.toLowerCase();
   User.findOne({ email: emailReq })
     .exec()
-    .then(user => {
+    .then((user) => {
       console.log(user);
       if (user) {
         bcrypt.compare(req.body.password, user.password, (err, result) => {
           if (err) {
             res.status(401).json({
-              message: "Não foi possivel autenticar"
+              message: "Não foi possivel autenticar",
             });
           }
           if (result) {
@@ -97,7 +96,7 @@ router.post("/login", (req, res, next) => {
               {
                 id: user._id,
                 email: user.email,
-                username: user.username
+                username: user.username,
               },
               "GSJsqetMU6nw3",
               { expiresIn: "2h" }
@@ -106,7 +105,7 @@ router.post("/login", (req, res, next) => {
             user.refreshToken = refreshToken;
             user
               .save()
-              .then(result => {
+              .then((result) => {
                 console.log(result);
                 return res.status(200).json({
                   message: "Autenticado com sucesso",
@@ -116,44 +115,44 @@ router.post("/login", (req, res, next) => {
                     photo: user.photo,
                     email: emailReq,
                     token: token,
-                    refreshToken: refreshToken
-                  }
+                    refreshToken: refreshToken,
+                  },
                 });
               })
-              .catch(err => {
+              .catch((err) => {
                 console.log(err);
                 res.status(500).json({
-                  error: err
+                  error: err,
                 });
               });
           } else {
             return res.status(401).json({
-              message: "Não foi possível autenticar"
+              message: "Não foi possível autenticar",
             });
           }
         });
       } else {
         return res.status(401).json({
-          message: "Não foi possivel autenticar"
+          message: "Não foi possivel autenticar",
         });
       }
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json({
-        error: err
+        error: err,
       });
     });
 });
 
-router.post("/token", function(req, res, next) {
+router.post("/token", function (req, res, next) {
   const emailReq = req.body.email.toLowerCase();
   User.findOne({ email: emailReq })
     .exec()
-    .then(user => {
+    .then((user) => {
       if (user < 1) {
         return res.status(401).json({
-          message: "Não foi possível autenticar"
+          message: "Não foi possível autenticar",
         });
       } else {
         var refreshToken = req.body.refreshToken;
@@ -164,7 +163,7 @@ router.post("/token", function(req, res, next) {
             {
               id: user._id,
               email: user.email,
-              username: user.username
+              username: user.username,
             },
             "GSJsqetMU6nw3",
             { expiresIn: "2h" }
@@ -173,33 +172,33 @@ router.post("/token", function(req, res, next) {
           user.refreshToken = refreshToken;
           user
             .save()
-            .then(result => {
+            .then((result) => {
               console.log(result);
               return res.status(200).json({
                 message: "Atenticado com sucesso",
                 user: {
                   token: token,
-                  refreshToken: refreshToken
-                }
+                  refreshToken: refreshToken,
+                },
               });
             })
-            .catch(err => {
+            .catch((err) => {
               console.log(err);
               res.status(500).json({
-                error: err
+                error: err,
               });
             });
         } else {
           return res.status(401).json({
-            message: "Não foi possivel autenticar"
+            message: "Não foi possivel autenticar",
           });
         }
       }
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json({
-        error: err
+        error: err,
       });
     });
 });
