@@ -159,13 +159,11 @@ router.get("/:place_id", (req, res, next) => {
 
 //checkAuth
 router.post("/", checkAuth, upload.array("placeImages", 5), async (req, res, next) => {
-  console.log(req.files)
   if (!req.body.modality || !req.body.name || !req.body.locationcoordinateslong || !req.body.locationcoordinateslatt || !req.files)
     return  res.status(406).json({
       error: "Erro ao validar os campos",
     });
 
-  console.log(req.files);
   let files = req.files;
   if (!Array.isArray(files)) files = [files];
   const imgUrls = [];

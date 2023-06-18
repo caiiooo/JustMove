@@ -37,12 +37,6 @@ const placeSchema = mongoose.Schema({
   reviews:[{
     _id: mongoose.Schema.Types.ObjectId,
     creator: {type: mongoose.Schema.Types.ObjectId, ref: 'User'}, 
-    // creator: {
-    //   _id: { type: String, required: true },
-    //   email: { type: String },
-    //   username: { type: String, required: true },
-    //   photo: { type: String },
-    // },
     rating: { type: Number },
     comment: String,
     date_update: Date,
